@@ -7,7 +7,7 @@
 ## Directories
 REF=data/references
 PROCESS=mothur/
-FQ=data/fastq
+FQ=data/
 CODE=code/mothur/
 
 ## Amplicon Target Region
@@ -39,15 +39,14 @@ TRAIN_TAX=$(TRAIN_AMP_ROOT).tax
 PROC=processors=8
 # clustering requires more memory ~4Gb per thread
 CLUSTER_PROC=processors=1
+MOTHUR=bin/mothur
 
-MOTHUR=bin/mothur/mothur
 ## Data Set Processing
 # root name of mothur input file defining fq files and groups
 PROCESS_ROOT=mgtst
 
 ## Mothur pipeline file names
-# FQ_FILES=$(FQ)/$(PROCESS_ROOT).files
-FQ_FILES=$(PROCESS_ROOT).files
+FQ_FILES=$(PROCESS)/$(PROCESS_ROOT).files
 ROOT=$(PROCESS)/$(PROCESS_ROOT)
 
 # make contigs
