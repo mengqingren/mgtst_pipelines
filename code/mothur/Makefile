@@ -5,7 +5,7 @@
 #========================================================================================================
 
 ## Directories
-REF=data/references
+REF=reference
 PROCESS=mothur/
 FQ=data/
 CODE=code/mothur/
