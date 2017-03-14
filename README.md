@@ -35,3 +35,6 @@ The DADA2 pipeline is based on the DADA2 tutorial http://benjjneb.github.io/dada
 
 Run DADA2 pipeline from the repository root directory. 
 `R CMD BATCH code/dada2_pipeline.R` 
+
+## Generating R Objects 
+`generate_mrexp_phyloseq_objects.Rmd` has code used to generate phyloseq and metagenomeSeq objects.
