@@ -1,0 +1,166 @@
+---
+title: "Create MRexp and Phyloseq Objects"
+author: "Nate Olson"
+date: '`r Sys.Date()`'
+always_allow_html: yes
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, warning=FALSE, message=FALSE, echo = FALSE}
+#knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE) 
+library(ProjectTemplate)
+cwd <- getwd()
+setwd("../mgtst_pub")
+load.project()
+setwd(cwd)
+```
+
+Generating MRexperiment and phyloseq objects for the three pipelines. 
+
+## Metadata
+```{r}
+meta_df <- sampleSheet %>% 
+  filter(barcode_lab == "JHU", seq_lab == "JHU") %>% 
+  select(biosample_id, titration, pcr_16S_plate, pos) %>% 
+  unite(id, pcr_16S_plate, pos, sep = "-",remove = TRUE)  %>% 
+  as.data.frame()
+
+rownames(meta_df) <- meta_df$id
+```
+
+```{r}
+glimpse(meta_df)
+```
+
+## Mothur 
+
+### Mothur Phyloseq Object
+
+```{r}
+shared_file <- "mothur/mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.shared"
+
+constax_file <- "mothur/mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.0.03.cons.taxonomy"
+
+mothur_ps <- phyloseq::import_mothur(mothur_shared_file = shared_file,
+                        mothur_constaxonomy_file = constax_file)
+
+## Adding sample data
+phyloseq::sample_data(mothur_ps) <- meta_df
+```
+
+```{r}
+mothur_ps
+```
+
+### Mothur MRexperiment Object
+```{r}
+mothur_mrexp <- phyloseq_to_metagenomeSeq(mothur_ps)
+```
+
+```{r}
+mothur_mrexp
+```
+
+### Save Mothur Objects
+```{r}
+saveRDS(mothur_ps, "mothur/mothur_ps.rds")
+saveRDS(mothur_mrexp, "mothur/mothur_mrexp.rds")
+```
+
+### QIIME  
+
+#### QIIME Phyloseq Object 
+```{r}
+qiime_dir <- "qiime/otus_uc_fast_no_chimera/"
+biom_file <- file.path(qiime_dir, "otu_table_mc2_w_tax_no_pynast_failures.biom")
+
+qiime_ps <- phyloseq::import_biom(BIOMfilename = biom_file)
+
+sample_names(qiime_ps) <- sample_names(qiime_ps) %>% str_replace("centroid=","")
+
+## Adding sample data
+phyloseq::sample_data(qiime_ps) <- meta_df
+```
+
+```{r}
+qiime_ps
+```
+
+__NOTE__ 
+The three samples removed by the QIIME pipeline are no template controls. 
+
+```{r}
+meta_df %>% rownames_to_column() %>% 
+  filter(!(rowname %in% sample_names(qiime_ps)))
+```
+
+### QIIME MRexperiment Object
+```{r}
+qiime_mrexp <- phyloseq_to_metagenomeSeq(qiime_ps)
+```
+
+```{r}
+qiime_mrexp
+```
+
+### Save Mothur Objects
+```{r}
+saveRDS(qiime_ps, "qiime/qiime_ps.rds")
+saveRDS(qiime_mrexp, "qiime/qiime_mrexp.rds")
+```
+
+### DADA2 Phyloseq Object 
+```{r}
+seqtab <- readRDS("dada2/seqtab_nochim.rds") 
+otu_tbl <- otu_table(seqtab, taxa_are_rows=FALSE)
+
+## Rep sequences
+sv_seqs <- colnames(otu_tbl)
+names(sv_seqs) <- paste0("SV",1:ncol(otu_tbl))
+
+## Rename features
+colnames(otu_tbl) <- paste0("SV",1:ncol(otu_tbl))
+
+taxa <- readRDS("dada2/taxa.rds")
+rownames(taxa) <- names(sv_seqs)[match(sv_seqs, rownames(taxa))]
+
+dada_ps <- phyloseq(otu_tbl, 
+                    sample_data(meta_df), 
+                    tax_table(taxa))
+
+## Removing 0 entry samples
+dada_samples <- sample_names(dada_ps)
+dada_nonzero_sample <- dada_samples[phyloseq::sample_sums(dada_ps) != 0]
+dada_ps <- phyloseq::prune_samples(dada_nonzero_sample, dada_ps)
+```
+
+```{r}
+dada_ps
+```
+
+### DADA2 MRexperiment Object
+```{r}
+dada_mrexp <- phyloseq_to_metagenomeSeq(dada_ps)
+```
+
+```{r}
+dada_mrexp 
+```
+
+### Save DADA2 Objects
+```{r}
+saveRDS(dada_ps, "dada2/dada_ps.rds")
+saveRDS(dada_mrexp, "dada2/dada_mrexp.rds") 
+DNAStringSet(sv_seqs) %>% writeXStringSet("dada2/sv_seqs.rds")
+```
+
+
+## Session information
+```{r}
+s_info <- devtools::session_info()
+print(s_info$platform)
+s_info$packages %>% filter(`*` == "*") %>% select(-`*`) %>% 
+      knitr::kable()
+```
