@@ -108,12 +108,12 @@ if(!(file.exists(seqtab_nochim_file))){
 
 ## Assign Taxonomy -------------------------------------------------------------
 taxa_file <-"dada2/taxa.rds"
-if(!(file.exists(seqtab_nochim_file))){
+if(!(file.exists(taxa_file))){
   taxa <- assignTaxonomy(seqtab_nochim, 
                          "reference/silva_nr_v123_train_set.fa.gz")
   colnames(taxa) <- c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus")
   saveRDS(taxa, taxa_file)
 }else{
-  seqtab_nochim <- readRDS(seqtab_nochim_file)
+  seqtab_nochim <- readRDS(taxa_file)
 }
 
