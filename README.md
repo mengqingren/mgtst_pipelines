@@ -33,5 +33,5 @@ Run Mothur pipeline from the repository root directory.
 
 The DADA2 pipeline is based on the DADA2 tutorial http://benjjneb.github.io/dada2/tutorial.html. 
 
-Run DADA2 pipeline from the repositort root directory. 
+Run DADA2 pipeline from the repository root directory. 
 `R CMD BATCH code/dada2_pipeline.R` 
