@@ -38,3 +38,8 @@ Run DADA2 pipeline from the repository root directory.
 
 ## Generating R Objects 
 `generate_mrexp_phyloseq_objects.Rmd` has code used to generate phyloseq and metagenomeSeq objects.
+
+## Computational Reproducibility
+Due to the large file sizes only the final R objects were committed to the repository. 
+To check for changes to intermediate files the bash script `code/calc_md5.sh` was used to calculate the md5 for files in the pipeline directories.
+
