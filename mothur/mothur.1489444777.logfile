@@ -1,0 +1,73 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.3
+Last updated: 2/23/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > screen.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.align, count=mothur//mgtst.trim.contigs.good.count_table, minlength=400, maxlength=500)
+
+Using 1 processors.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.align
+mothur//mgtst.trim.contigs.good.unique.bad.accnos
+mothur//mgtst.trim.contigs.good.good.count_table
+
+
+It took 1501 secs to screen 2746002 sequences.
+
+mothur > filter.seqs(fasta=current, vertical=T, trump=.)
+Using mothur//mgtst.trim.contigs.good.unique.good.align as input file for the fasta parameter.
+
+Using 1 processors.
+Creating Filter... 
+
+
+Running Filter... 
+
+
+
+Length of filtered alignment: 808
+Number of columns removed: 16208
+Length of the original alignment: 17016
+Number of sequences used to construct filter: 2727800
+
+Output File Names: 
+mothur//mgtst.filter
+mothur//mgtst.trim.contigs.good.unique.good.filter.fasta
+
+
+mothur > unique.seqs(fasta=current, count=current)
+Using mothur//mgtst.trim.contigs.good.good.count_table as input file for the count parameter.
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.fasta as input file for the fasta parameter.
+2727800	848372
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.count_table
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.fasta
+
+
+mothur > quit()

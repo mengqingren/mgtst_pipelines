@@ -1,0 +1,82 @@
+usearch_i86osx32 v6.1.544, 4.0Gb RAM (17.2Gb total), 8 cores
+usearch61 --mindiffs 3 --uchime_denovo /Users/nolson/Projects/mgtst_pipelines/qiime/split_libs_chimera/seqs.fna_consensus_fixed.fasta --minh 0.28 --xn 8.0 --minseqlength 64 --mindiv 0.8 --abskew 2.0 --uchimeout /Users/nolson/Projects/mgtst_pipelines/qiime/split_libs_chimera/seqs.fna_chimeras_denovo.uchime --dn 1.4 --log /Users/nolson/Projects/mgtst_pipelines/qiime/split_libs_chimera/seqs.fna_chimeras_denovo.log 
+Started Fri Mar 10 10:23:56 2017
+    0.28  minh
+    8.00  xn
+    1.40  dn
+    1.00  xa
+    0.80  mindiv
+    0.75  id
+       2  maxp
+
+Highest-abundance sequences
+  26468  centroid=2-D3_S135_L001_R1_001_162546;size=26468
+  25928  centroid=1-G8_S80_L001_R1_001_212107;size=25928
+  19891  centroid=1-F5_S65_L001_R1_001_85648;size=19891
+  19215  centroid=1-H9_S93_L001_R1_001_929326;size=19215
+  16913  centroid=2-B11_S119_L001_R1_001_4206886;size=16913
+  16388  centroid=1-E6_S54_L001_R1_001_2608321;size=16388
+  16173  centroid=1-E7_S55_L001_R1_001_765396;size=16173
+  14925  centroid=1-C5_S29_L001_R1_001_2649000;size=14925
+  14778  centroid=1-C6_S30_L001_R1_001_3129137;size=14778
+  14217  centroid=2-F3_S159_L001_R1_001_1154554;size=14217
+  13939  centroid=2-C7_S127_L001_R1_001_954091;size=13939
+  12893  centroid=2-E4_S148_L001_R1_001_740354;size=12893
+  12471  centroid=1-E11_S59_L001_R1_001_1391338;size=12471
+  12404  centroid=1-G8_S80_L001_R1_001_229754;size=12404
+  12287  centroid=2-A2_S98_L001_R1_001_705604;size=12287
+  12267  centroid=1-E8_S56_L001_R1_001_903014;size=12267
+  12181  centroid=2-E9_S153_L001_R1_001_563264;size=12181
+  12150  centroid=2-G12_S180_L001_R1_001_3840284;size=12150
+  11584  centroid=2-B12_S120_L001_R1_001_144209;size=11584
+  11261  centroid=2-A12_S108_L001_R1_001_1;size=11261
+  11247  centroid=2-H11_S191_L001_R1_001_3272963;size=11247
+  10867  centroid=2-F11_S167_L001_R1_001_108;size=10867
+  10821  centroid=1-B3_S15_L001_R1_001_1264356;size=10821
+  10683  centroid=1-F2_S62_L001_R1_001_3021042;size=10683
+  10683  centroid=2-A4_S100_L001_R1_001_473062;size=10683
+  10676  centroid=1-C3_S27_L001_R1_001_1107048;size=10676
+  10320  centroid=1-B1_S13_L001_R1_001_1618670;size=10320
+  10050  centroid=1-A8_S8_L001_R1_001_291330;size=10050
+   9814  centroid=1-D11_S47_L001_R1_001_2247534;size=9814
+   9776  centroid=2-F11_S167_L001_R1_001_23;size=9776
+   9572  centroid=1-B3_S15_L001_R1_001_1266206;size=9572
+   9543  centroid=2-B8_S116_L001_R1_001_532529;size=9543
+
+/Users/nolson/Projects/mgtst_pipelines/qiime/split_libs_chimera/seqs.fna_consensus_fixed.fasta: 12680/34469 chimeras (36.8%)
+
+              Id      Allocs       Frees     Pct         Bytes
+----------------  ----------  ----------  ------  ------------
+         udbdata      168035      103415   72.7%          94Mb
+         myutils           4           0   13.7%          18Mb
+           seqdb       41295           1   10.9%          14Mb
+      gobuff_hdr          10           2    0.8%         1.1Mb
+           udbio           3           0    0.6%       786.4kb
+            Sort       14456       14448    0.5%       654.0kb
+          mx_hdr           4           2    0.5%       599.5kb
+          uchime           3           0    0.2%       275.8kb
+       udbparams           1           0    0.1%        65.5kb
+     udbsearcher           1           0    0.1%        65.5kb
+       hspfinder         200           1    0.0%        49.0kb
+      xdpmem_hdr          12           8    0.0%       5298.0b
+    pathinfo_hdr           6           4    0.0%       2638.0b
+         chainer          24          21    0.0%        352.0b
+----------------  ----------  ----------  ------  ------------
+           Total      224054      117902  100.0%         129Mb
+
+       225Mb  Curr mem
+       230Mb  Peak mem
+       749Mb  Total alloc
+       620Mb  Total free
+       129Mb  Net
+        96Mb  +Excess
+
+            Type        Busy        Free         Mem   MaxRefCnt        Gets      Allocs       Frees
+----------------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+         SeqInfo           0           0        0.0b           0
+        PathInfo           0           0        0.0b           0
+     AlignResult           0           0        0.0b           0
+
+Finished Fri Mar 10 10:26:12 2017
+Elapsed time 02:16
+Max memory 230Mb

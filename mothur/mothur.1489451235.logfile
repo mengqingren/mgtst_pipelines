@@ -1,0 +1,789 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.3
+Last updated: 2/23/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > cluster.split(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table, taxonomy=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.V34.wang.taxonomy, splitmethod=classify, taxlevel=4, processors=1)
+
+Using 1 processors.
+[NOTE]: Default clustering method has changed to opti. To use average neighbor, set method=average.
+Splitting the file...
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.0.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.0.dist
+
+It took 155 seconds to calculate the distances for 10961 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.1.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.1.dist
+
+It took 960 seconds to calculate the distances for 27294 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.2.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.2.dist
+
+It took 4 seconds to calculate the distances for 1757 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.3.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.3.dist
+
+It took 443 seconds to calculate the distances for 18685 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.4.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.4.dist
+
+It took 0 seconds to calculate the distances for 217 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.5.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.5.dist
+
+It took 0 seconds to calculate the distances for 250 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.6.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.6.dist
+
+It took 47 seconds to calculate the distances for 6016 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.7.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.7.dist
+
+It took 1 seconds to calculate the distances for 950 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.8.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.8.dist
+
+It took 1 seconds to calculate the distances for 760 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.9.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.9.dist
+
+It took 1 seconds to calculate the distances for 779 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.10.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.10.dist
+
+It took 0 seconds to calculate the distances for 128 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.11.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.11.dist
+
+It took 0 seconds to calculate the distances for 349 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.12.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.12.dist
+
+It took 0 seconds to calculate the distances for 408 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.13.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.13.dist
+
+It took 1 seconds to calculate the distances for 364 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.14.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.14.dist
+
+It took 0 seconds to calculate the distances for 38 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.15.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.15.dist
+
+It took 0 seconds to calculate the distances for 459 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.16.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.16.dist
+
+It took 0 seconds to calculate the distances for 581 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.17.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.17.dist
+
+It took 1 seconds to calculate the distances for 451 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.18.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.18.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.18.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.19.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.19.dist
+
+It took 0 seconds to calculate the distances for 17 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.20.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.20.dist
+
+It took 0 seconds to calculate the distances for 31 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.21.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.21.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.22.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.22.dist
+
+It took 0 seconds to calculate the distances for 31 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.23.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.23.dist
+
+It took 0 seconds to calculate the distances for 19 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.24.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.24.dist
+
+It took 0 seconds to calculate the distances for 9 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.25.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.25.dist
+
+It took 0 seconds to calculate the distances for 6 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.26.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.26.dist
+
+It took 0 seconds to calculate the distances for 3 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.27.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.27.dist
+
+It took 0 seconds to calculate the distances for 42 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.28.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.28.dist
+
+It took 0 seconds to calculate the distances for 16 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.29.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.29.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.29.dist
+
+It took 0 seconds to calculate the distances for 3 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.30.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.30.dist
+
+It took 0 seconds to calculate the distances for 7 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.31.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.31.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.32.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.32.dist
+
+It took 0 seconds to calculate the distances for 7 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.33.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.33.dist
+
+It took 0 seconds to calculate the distances for 8 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.34.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.34.dist
+
+It took 0 seconds to calculate the distances for 7 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.35.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.35.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.35.dist
+
+It took 0 seconds to calculate the distances for 3 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.36.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.36.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.36.dist
+
+It took 0 seconds to calculate the distances for 15 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.37.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.37.dist
+
+It took 0 seconds to calculate the distances for 7 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.38.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.38.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.38.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.39.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.39.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.39.dist
+
+It took 0 seconds to calculate the distances for 6 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.40.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.40.dist
+
+It took 0 seconds to calculate the distances for 4 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.41.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.41.dist is blank. This can result if there are no distances below your cutoff.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.41.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+It took 1624 seconds to split the distance file.
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.1.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+294406	373262368	55169	248897	0.541882	0.999852	0.842183	0.999334	0.157817	0.999187	0.675187	0.659454	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.0.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+116146	60296082	33011	181327	0.390442	0.999453	0.778683	0.997002	0.221317	0.996465	0.549941	0.520099	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.3.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+180989	175246151	16851	65489	0.734301	0.999904	0.914825	0.999626	0.0851749	0.999531	0.819387	0.814682	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.6.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+74159	18271313	22772	32967	0.69226	0.998755	0.76507	0.998199	0.23493	0.996971	0.726244	0.726846	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.9.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+12564	322287	920	8264	0.603226	0.997154	0.931771	0.974999	0.068229	0.973305	0.737839	0.732339	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.17.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+13056	106963	1326	4406	0.747681	0.987755	0.907801	0.960438	0.0921986	0.954418	0.799083	0.819997	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.2.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+7342	1615623	3068	7495	0.494844	0.998105	0.705283	0.995382	0.294717	0.993534	0.587701	0.581614	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.11.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+4660	71061	2736	1343	0.776279	0.962925	0.63007	0.981451	0.36993	0.948885	0.672339	0.695574	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.15.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+2480	126200	573	542	0.820649	0.99548	0.812316	0.995724	0.187684	0.99141	0.812074	0.816461	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.16.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+720	196639	272	1765	0.289738	0.998619	0.725806	0.991104	0.274194	0.989784	0.454672	0.41415	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.13.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+1574	83462	324	545	0.742803	0.996133	0.829294	0.993512	0.170706	0.989884	0.779744	0.783669	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.12.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+1108	103219	173	611	0.644561	0.998327	0.864949	0.994115	0.135051	0.992541	0.743157	0.738667	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.7.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+1271	498791	93	345	0.78651	0.999814	0.931818	0.999309	0.0681818	0.999125	0.855668	0.85302	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.8.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+1119	327026	74	236	0.82583	0.999774	0.937972	0.999279	0.0620285	0.999056	0.879658	0.878336	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.10.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+1038	14612	112	169	0.859983	0.992393	0.902609	0.988566	0.0973913	0.982361	0.87156	0.880781	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.5.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+474	44653	11	12	0.975309	0.999754	0.97732	0.999731	0.0226804	0.999491	0.976056	0.976313	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.27.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+250	3923	19	86	0.744048	0.99518	0.929368	0.978548	0.070632	0.975456	0.819242	0.826446	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.14.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+259	3608	21	28	0.902439	0.994213	0.925	0.992299	0.075	0.987487	0.906917	0.91358	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.22.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+154	3159	0	8	0.950617	1	1	0.997474	0	0.997591	0.973764	0.974684	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.20.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+103	3212	0	6	0.944954	1	1	0.998135	0	0.998193	0.971181	0.971698	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.23.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+88	2320	6	1	0.988764	0.99742	0.93617	0.999569	0.0638298	0.997101	0.960631	0.961749	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.4.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+68	35706	3	1	0.985507	0.999916	0.957746	0.999972	0.0422535	0.999888	0.971472	0.971429	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.28.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+22	2189	0	0	1	1	1	1	0	1	1	1	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.24.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+18	1752	0	0	1	1	1	1	0	1	1	1	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.30.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+10	1642	0	1	0.909091	1	1	0.999391	0	0.999395	0.953172	0.952381	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.37.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	1643	0	10	0	1	0	0.99395	0	0.99395	0	0	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.34.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	1643	0	10	0	1	0	0.99395	0	0.99395	0	0	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.25.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+6	1587	0	3	0.666667	1	1	0.998113	0	0.99812	0.815726	0.8	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.33.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+7	1702	2	0	1	0.998826	0.777778	1	0.222222	0.998831	0.881399	0.875	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.19.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+4	2270	2	2	0.666667	0.99912	0.666667	0.99912	0.333333	0.998244	0.665786	0.666667	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.32.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+4	1649	0	0	1	1	1	1	0	1	1	1	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.40.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	1482	0	3	0	1	0	0.99798	0	0.99798	0	0	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.26.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	1428	0	3	0	1	0	0.997904	0	0.997904	0	0	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.31.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	1377	0	1	0	1	0	0.999274	0	0.999274	0	0	
+
+
+You did not set a cutoff, using 0.03.
+
+Clustering mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta.21.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	1377	0	1	0	1	0	0.999274	0	0.999274	0	0	
+
+It took 14 seconds to cluster
+Merging the clustered files...
+It took 1 seconds to merge.
+/******************************************/
+Running command: sens.spec(cutoff=0.03, list=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.list, column=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.dist, count=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table)
+
+NOTE: sens.spec assumes that only unique sequences were used to generate the distance matrix.
+
+It took 5 to run sens.spec.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.sensspec
+
+/******************************************/
+Done.
+
+
+label	cutoff	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0.03	0.03	714099	2498934756	137538	554577	0.5629	0.9999	0.8385	0.9998	0.1615	0.9997	0.6869	0.6736
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.dist
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.list
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.sensspec
+
+
+mothur > make.shared(list=current,count=current, label=0.03)
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table as input file for the count parameter.
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.list as input file for the list parameter.
+0.03
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.shared
+
+
+mothur > classify.otu(list=current, count=current, taxonomy=current, label=0.03)
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table as input file for the count parameter.
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.list as input file for the list parameter.
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.V34.wang.taxonomy as input file for the taxonomy parameter.
+0.03	38358
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.0.03.cons.taxonomy
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.0.03.cons.tax.summary
+
+
+mothur > quit()

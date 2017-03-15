@@ -1,0 +1,2305 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.3
+Last updated: 2/23/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > make.contigs(file=mothur//mgtst.files, inputdir=data//, outputdir=mothur//, processors=8)
+Setting output directory to: mothur//
+Setting input directory to: data//
+
+Using 8 processors.
+
+[WARNING]: group 1-A1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-A9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-B9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-C9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-D9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-E9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-F9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-G9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 1-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-A9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-B9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-C9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-D9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-E9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-F9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-G9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H1 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H10 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H11 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H12 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H2 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H3 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H4 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/1-A1_S1_L001_R1_001.fastq.gz - data/1-A1_S1_L001_R2_001.fastq.gz (files 1 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 321 secs to assemble 102782 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/2-A1_S97_L001_R1_001.fastq.gz - data/2-A1_S97_L001_R2_001.fastq.gz (files 97 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 329 secs to assemble 106290 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/1-E1_S49_L001_R1_001.fastq.gz - data/1-E1_S49_L001_R2_001.fastq.gz (files 49 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 330 secs to assemble 105669 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/2-C1_S121_L001_R1_001.fastq.gz - data/2-C1_S121_L001_R2_001.fastq.gz (files 121 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 366 secs to assemble 118344 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/2-E1_S145_L001_R1_001.fastq.gz - data/2-E1_S145_L001_R2_001.fastq.gz (files 145 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 386 secs to assemble 124402 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/1-G1_S73_L001_R1_001.fastq.gz - data/1-G1_S73_L001_R2_001.fastq.gz (files 73 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 433 secs to assemble 139702 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/2-G1_S169_L001_R1_001.fastq.gz - data/2-G1_S169_L001_R2_001.fastq.gz (files 169 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 436 secs to assemble 140906 reads.
+
+contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H5 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H6 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H7 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H8 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+[WARNING]: group 2-H9 contains illegal characters in the name. Group names should not include :, -, or / characters.  The ':' character is a special character used in trees. Using ':' will result in your tree being unreadable by tree reading software.  The '-' character is a special character used by mothur to parse group names.  Using the '-' character will prevent you from selecting groups. The '/' character will created unreadable filenames when mothur includes the group in an output filename.  
+
+
+>>>>>	Processing file pair data/1-C1_S25_L001_R1_001.fastq.gz - data/1-C1_S25_L001_R2_001.fastq.gz (files 25 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 443 secs to assemble 143054 reads.
+
+
+>>>>>	Processing file pair data/1-A10_S10_L001_R1_001.fastq.gz - data/1-A10_S10_L001_R2_001.fastq.gz (files 2 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 248 secs to assemble 79841 reads.
+
+
+>>>>>	Processing file pair data/1-E10_S58_L001_R1_001.fastq.gz - data/1-E10_S58_L001_R2_001.fastq.gz (files 50 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 276 secs to assemble 88587 reads.
+
+
+>>>>>	Processing file pair data/2-A10_S106_L001_R1_001.fastq.gz - data/2-A10_S106_L001_R2_001.fastq.gz (files 98 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 325 secs to assemble 103766 reads.
+
+
+>>>>>	Processing file pair data/1-G10_S82_L001_R1_001.fastq.gz - data/1-G10_S82_L001_R2_001.fastq.gz (files 74 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 270 secs to assemble 86007 reads.
+
+
+>>>>>	Processing file pair data/2-C10_S130_L001_R1_001.fastq.gz - data/2-C10_S130_L001_R2_001.fastq.gz (files 122 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 353 secs to assemble 113731 reads.
+
+
+>>>>>	Processing file pair data/2-E10_S154_L001_R1_001.fastq.gz - data/2-E10_S154_L001_R2_001.fastq.gz (files 146 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 359 secs to assemble 115302 reads.
+
+
+>>>>>	Processing file pair data/1-C10_S34_L001_R1_001.fastq.gz - data/1-C10_S34_L001_R2_001.fastq.gz (files 26 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 304 secs to assemble 97568 reads.
+
+
+>>>>>	Processing file pair data/1-A11_S11_L001_R1_001.fastq.gz - data/1-A11_S11_L001_R2_001.fastq.gz (files 3 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 181 secs to assemble 59486 reads.
+
+
+>>>>>	Processing file pair data/1-A12_S12_L001_R1_001.fastq.gz - data/1-A12_S12_L001_R2_001.fastq.gz (files 4 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 2 secs to assemble 1305 reads.
+
+
+>>>>>	Processing file pair data/2-G10_S178_L001_R1_001.fastq.gz - data/2-G10_S178_L001_R2_001.fastq.gz (files 170 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 403 secs to assemble 129828 reads.
+
+
+>>>>>	Processing file pair data/1-E11_S59_L001_R1_001.fastq.gz - data/1-E11_S59_L001_R2_001.fastq.gz (files 51 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 258 secs to assemble 85108 reads.
+
+
+>>>>>	Processing file pair data/2-A11_S107_L001_R1_001.fastq.gz - data/2-A11_S107_L001_R2_001.fastq.gz (files 99 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 233 secs to assemble 77664 reads.
+
+
+>>>>>	Processing file pair data/2-A12_S108_L001_R1_001.fastq.gz - data/2-A12_S108_L001_R2_001.fastq.gz (files 100 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 3 secs to assemble 5216 reads.
+
+
+>>>>>	Processing file pair data/1-A2_S2_L001_R1_001.fastq.gz - data/1-A2_S2_L001_R2_001.fastq.gz (files 5 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 195 secs to assemble 64540 reads.
+
+
+>>>>>	Processing file pair data/2-C11_S131_L001_R1_001.fastq.gz - data/2-C11_S131_L001_R2_001.fastq.gz (files 123 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 303 secs to assemble 99048 reads.
+
+
+>>>>>	Processing file pair data/1-G11_S83_L001_R1_001.fastq.gz - data/1-G11_S83_L001_R2_001.fastq.gz (files 75 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 327 secs to assemble 106690 reads.
+
+
+>>>>>	Processing file pair data/2-A2_S98_L001_R1_001.fastq.gz - data/2-A2_S98_L001_R2_001.fastq.gz (files 101 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 155 secs to assemble 50326 reads.
+
+
+>>>>>	Processing file pair data/1-C11_S35_L001_R1_001.fastq.gz - data/1-C11_S35_L001_R2_001.fastq.gz (files 27 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 330 secs to assemble 108451 reads.
+
+
+>>>>>	Processing file pair data/2-E11_S155_L001_R1_001.fastq.gz - data/2-E11_S155_L001_R2_001.fastq.gz (files 147 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 379 secs to assemble 123669 reads.
+
+
+>>>>>	Processing file pair data/2-G11_S179_L001_R1_001.fastq.gz - data/2-G11_S179_L001_R2_001.fastq.gz (files 171 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 328 secs to assemble 104445 reads.
+
+
+>>>>>	Processing file pair data/1-E12_S60_L001_R1_001.fastq.gz - data/1-E12_S60_L001_R2_001.fastq.gz (files 52 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 324 secs to assemble 103428 reads.
+
+
+>>>>>	Processing file pair data/1-A3_S3_L001_R1_001.fastq.gz - data/1-A3_S3_L001_R2_001.fastq.gz (files 6 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 250 secs to assemble 78949 reads.
+
+
+>>>>>	Processing file pair data/2-A3_S99_L001_R1_001.fastq.gz - data/2-A3_S99_L001_R2_001.fastq.gz (files 102 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 271 secs to assemble 85832 reads.
+
+
+>>>>>	Processing file pair data/2-C12_S132_L001_R1_001.fastq.gz - data/2-C12_S132_L001_R2_001.fastq.gz (files 124 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 313 secs to assemble 98236 reads.
+
+
+>>>>>	Processing file pair data/1-A4_S4_L001_R1_001.fastq.gz - data/1-A4_S4_L001_R2_001.fastq.gz (files 7 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 181 secs to assemble 56736 reads.
+
+
+>>>>>	Processing file pair data/1-G12_S84_L001_R1_001.fastq.gz - data/1-G12_S84_L001_R2_001.fastq.gz (files 76 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 382 secs to assemble 120721 reads.
+
+
+>>>>>	Processing file pair data/1-E2_S50_L001_R1_001.fastq.gz - data/1-E2_S50_L001_R2_001.fastq.gz (files 53 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 228 secs to assemble 72563 reads.
+
+
+>>>>>	Processing file pair data/2-G12_S180_L001_R1_001.fastq.gz - data/2-G12_S180_L001_R2_001.fastq.gz (files 172 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 354 secs to assemble 112920 reads.
+
+
+>>>>>	Processing file pair data/1-C12_S36_L001_R1_001.fastq.gz - data/1-C12_S36_L001_R2_001.fastq.gz (files 28 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 465 secs to assemble 145351 reads.
+
+
+>>>>>	Processing file pair data/1-A5_S5_L001_R1_001.fastq.gz - data/1-A5_S5_L001_R2_001.fastq.gz (files 8 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 184 secs to assemble 60096 reads.
+
+
+>>>>>	Processing file pair data/1-A6_S6_L001_R1_001.fastq.gz - data/1-A6_S6_L001_R2_001.fastq.gz (files 9 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 1380 reads.
+
+
+>>>>>	Processing file pair data/2-C2_S122_L001_R1_001.fastq.gz - data/2-C2_S122_L001_R2_001.fastq.gz (files 125 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 230 secs to assemble 74533 reads.
+
+
+>>>>>	Processing file pair data/2-E12_S156_L001_R1_001.fastq.gz - data/2-E12_S156_L001_R2_001.fastq.gz (files 148 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 453 secs to assemble 143110 reads.
+
+
+>>>>>	Processing file pair data/2-A4_S100_L001_R1_001.fastq.gz - data/2-A4_S100_L001_R2_001.fastq.gz (files 103 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 280 secs to assemble 90689 reads.
+
+
+>>>>>	Processing file pair data/1-E3_S51_L001_R1_001.fastq.gz - data/1-E3_S51_L001_R2_001.fastq.gz (files 54 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 230 secs to assemble 74704 reads.
+
+
+>>>>>	Processing file pair data/2-G2_S170_L001_R1_001.fastq.gz - data/2-G2_S170_L001_R2_001.fastq.gz (files 173 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 203 secs to assemble 67526 reads.
+
+
+>>>>>	Processing file pair data/2-E2_S146_L001_R1_001.fastq.gz - data/2-E2_S146_L001_R2_001.fastq.gz (files 149 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 169 secs to assemble 56609 reads.
+
+
+>>>>>	Processing file pair data/1-G2_S74_L001_R1_001.fastq.gz - data/1-G2_S74_L001_R2_001.fastq.gz (files 77 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 336 secs to assemble 110276 reads.
+
+
+>>>>>	Processing file pair data/1-C2_S26_L001_R1_001.fastq.gz - data/1-C2_S26_L001_R2_001.fastq.gz (files 29 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 222 secs to assemble 74360 reads.
+
+
+>>>>>	Processing file pair data/1-A7_S7_L001_R1_001.fastq.gz - data/1-A7_S7_L001_R2_001.fastq.gz (files 10 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 203 secs to assemble 67844 reads.
+
+
+>>>>>	Processing file pair data/2-A5_S101_L001_R1_001.fastq.gz - data/2-A5_S101_L001_R2_001.fastq.gz (files 104 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 173 secs to assemble 57944 reads.
+
+
+>>>>>	Processing file pair data/2-A6_S102_L001_R1_001.fastq.gz - data/2-A6_S102_L001_R2_001.fastq.gz (files 105 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 9 secs to assemble 20851 reads.
+
+
+>>>>>	Processing file pair data/1-E4_S52_L001_R1_001.fastq.gz - data/1-E4_S52_L001_R2_001.fastq.gz (files 55 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 159 secs to assemble 52302 reads.
+
+
+>>>>>	Processing file pair data/2-C3_S123_L001_R1_001.fastq.gz - data/2-C3_S123_L001_R2_001.fastq.gz (files 126 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 298 secs to assemble 98586 reads.
+
+
+>>>>>	Processing file pair data/1-A8_S8_L001_R1_001.fastq.gz - data/1-A8_S8_L001_R2_001.fastq.gz (files 11 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 176 secs to assemble 56634 reads.
+
+
+>>>>>	Processing file pair data/2-E3_S147_L001_R1_001.fastq.gz - data/2-E3_S147_L001_R2_001.fastq.gz (files 150 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 249 secs to assemble 81919 reads.
+
+
+>>>>>	Processing file pair data/1-C3_S27_L001_R1_001.fastq.gz - data/1-C3_S27_L001_R2_001.fastq.gz (files 30 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 259 secs to assemble 85947 reads.
+
+
+>>>>>	Processing file pair data/2-G3_S171_L001_R1_001.fastq.gz - data/2-G3_S171_L001_R2_001.fastq.gz (files 174 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 321 secs to assemble 107387 reads.
+
+
+>>>>>	Processing file pair data/1-G3_S75_L001_R1_001.fastq.gz - data/1-G3_S75_L001_R2_001.fastq.gz (files 78 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 306 secs to assemble 101657 reads.
+
+
+>>>>>	Processing file pair data/1-E5_S53_L001_R1_001.fastq.gz - data/1-E5_S53_L001_R2_001.fastq.gz (files 56 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 272 secs to assemble 91028 reads.
+
+
+>>>>>	Processing file pair data/2-A7_S103_L001_R1_001.fastq.gz - data/2-A7_S103_L001_R2_001.fastq.gz (files 106 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 300 secs to assemble 100290 reads.
+
+
+>>>>>	Processing file pair data/1-A9_S9_L001_R1_001.fastq.gz - data/1-A9_S9_L001_R2_001.fastq.gz (files 12 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 166 secs to assemble 58014 reads.
+
+
+>>>>>	Processing file pair data/2-C4_S124_L001_R1_001.fastq.gz - data/2-C4_S124_L001_R2_001.fastq.gz (files 127 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 317 secs to assemble 109313 reads.
+
+
+>>>>>	Processing file pair data/1-C4_S28_L001_R1_001.fastq.gz - data/1-C4_S28_L001_R2_001.fastq.gz (files 31 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 232 secs to assemble 81199 reads.
+
+
+>>>>>	Processing file pair data/1-E6_S54_L001_R1_001.fastq.gz - data/1-E6_S54_L001_R2_001.fastq.gz (files 57 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 211 secs to assemble 74083 reads.
+
+
+>>>>>	Processing file pair data/1-G4_S76_L001_R1_001.fastq.gz - data/1-G4_S76_L001_R2_001.fastq.gz (files 79 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 257 secs to assemble 89737 reads.
+
+
+>>>>>	Processing file pair data/2-E4_S148_L001_R1_001.fastq.gz - data/2-E4_S148_L001_R2_001.fastq.gz (files 151 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 325 secs to assemble 114090 reads.
+
+
+>>>>>	Processing file pair data/2-A8_S104_L001_R1_001.fastq.gz - data/2-A8_S104_L001_R2_001.fastq.gz (files 107 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 243 secs to assemble 84930 reads.
+
+
+>>>>>	Processing file pair data/2-G4_S172_L001_R1_001.fastq.gz - data/2-G4_S172_L001_R2_001.fastq.gz (files 175 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 364 secs to assemble 127589 reads.
+
+
+>>>>>	Processing file pair data/2-C5_S125_L001_R1_001.fastq.gz - data/2-C5_S125_L001_R2_001.fastq.gz (files 128 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 245 secs to assemble 85222 reads.
+
+
+>>>>>	Processing file pair data/1-B1_S13_L001_R1_001.fastq.gz - data/1-B1_S13_L001_R2_001.fastq.gz (files 13 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 365 secs to assemble 127663 reads.
+
+
+>>>>>	Processing file pair data/1-C5_S29_L001_R1_001.fastq.gz - data/1-C5_S29_L001_R2_001.fastq.gz (files 32 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 224 secs to assemble 78132 reads.
+
+
+>>>>>	Processing file pair data/1-E7_S55_L001_R1_001.fastq.gz - data/1-E7_S55_L001_R2_001.fastq.gz (files 58 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 194 secs to assemble 67973 reads.
+
+
+>>>>>	Processing file pair data/1-G5_S77_L001_R1_001.fastq.gz - data/1-G5_S77_L001_R2_001.fastq.gz (files 80 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 212 secs to assemble 74044 reads.
+
+
+>>>>>	Processing file pair data/2-A9_S105_L001_R1_001.fastq.gz - data/2-A9_S105_L001_R2_001.fastq.gz (files 108 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 220 secs to assemble 77259 reads.
+
+
+>>>>>	Processing file pair data/2-E5_S149_L001_R1_001.fastq.gz - data/2-E5_S149_L001_R2_001.fastq.gz (files 152 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 228 secs to assemble 79497 reads.
+
+
+>>>>>	Processing file pair data/2-G5_S173_L001_R1_001.fastq.gz - data/2-G5_S173_L001_R2_001.fastq.gz (files 176 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 245 secs to assemble 85660 reads.
+
+
+>>>>>	Processing file pair data/1-E8_S56_L001_R1_001.fastq.gz - data/1-E8_S56_L001_R2_001.fastq.gz (files 59 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 183 secs to assemble 63939 reads.
+
+
+>>>>>	Processing file pair data/1-C6_S30_L001_R1_001.fastq.gz - data/1-C6_S30_L001_R2_001.fastq.gz (files 33 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 227 secs to assemble 79199 reads.
+
+
+>>>>>	Processing file pair data/2-C6_S126_L001_R1_001.fastq.gz - data/2-C6_S126_L001_R2_001.fastq.gz (files 129 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 288 secs to assemble 100740 reads.
+
+
+>>>>>	Processing file pair data/1-B10_S22_L001_R1_001.fastq.gz - data/1-B10_S22_L001_R2_001.fastq.gz (files 14 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 259 secs to assemble 89249 reads.
+
+
+>>>>>	Processing file pair data/2-E6_S150_L001_R1_001.fastq.gz - data/2-E6_S150_L001_R2_001.fastq.gz (files 153 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 268 secs to assemble 93925 reads.
+
+
+>>>>>	Processing file pair data/1-G6_S78_L001_R1_001.fastq.gz - data/1-G6_S78_L001_R2_001.fastq.gz (files 81 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 293 secs to assemble 102177 reads.
+
+
+>>>>>	Processing file pair data/1-E9_S57_L001_R1_001.fastq.gz - data/1-E9_S57_L001_R2_001.fastq.gz (files 60 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 217 secs to assemble 75885 reads.
+
+
+>>>>>	Processing file pair data/2-B1_S109_L001_R1_001.fastq.gz - data/2-B1_S109_L001_R2_001.fastq.gz (files 109 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 345 secs to assemble 120499 reads.
+
+
+>>>>>	Processing file pair data/1-C7_S31_L001_R1_001.fastq.gz - data/1-C7_S31_L001_R2_001.fastq.gz (files 34 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 238 secs to assemble 83974 reads.
+
+
+>>>>>	Processing file pair data/2-G6_S174_L001_R1_001.fastq.gz - data/2-G6_S174_L001_R2_001.fastq.gz (files 177 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 340 secs to assemble 118537 reads.
+
+
+>>>>>	Processing file pair data/1-B11_S23_L001_R1_001.fastq.gz - data/1-B11_S23_L001_R2_001.fastq.gz (files 15 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 265 secs to assemble 92355 reads.
+
+
+>>>>>	Processing file pair data/1-G7_S79_L001_R1_001.fastq.gz - data/1-G7_S79_L001_R2_001.fastq.gz (files 82 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 255 secs to assemble 88406 reads.
+
+
+>>>>>	Processing file pair data/2-C7_S127_L001_R1_001.fastq.gz - data/2-C7_S127_L001_R2_001.fastq.gz (files 130 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 371 secs to assemble 129071 reads.
+
+
+>>>>>	Processing file pair data/2-E7_S151_L001_R1_001.fastq.gz - data/2-E7_S151_L001_R2_001.fastq.gz (files 154 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 337 secs to assemble 117637 reads.
+
+
+>>>>>	Processing file pair data/2-B10_S118_L001_R1_001.fastq.gz - data/2-B10_S118_L001_R2_001.fastq.gz (files 110 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 283 secs to assemble 97611 reads.
+
+
+>>>>>	Processing file pair data/1-C8_S32_L001_R1_001.fastq.gz - data/1-C8_S32_L001_R2_001.fastq.gz (files 35 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 239 secs to assemble 82689 reads.
+
+
+>>>>>	Processing file pair data/1-G8_S80_L001_R1_001.fastq.gz - data/1-G8_S80_L001_R2_001.fastq.gz (files 83 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 215 secs to assemble 74936 reads.
+
+
+>>>>>	Processing file pair data/1-F1_S61_L001_R1_001.fastq.gz - data/1-F1_S61_L001_R2_001.fastq.gz (files 61 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 440 secs to assemble 152267 reads.
+
+
+>>>>>	Processing file pair data/2-G7_S175_L001_R1_001.fastq.gz - data/2-G7_S175_L001_R2_001.fastq.gz (files 178 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 337 secs to assemble 116928 reads.
+
+
+>>>>>	Processing file pair data/2-C8_S128_L001_R1_001.fastq.gz - data/2-C8_S128_L001_R2_001.fastq.gz (files 131 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 286 secs to assemble 99346 reads.
+
+
+>>>>>	Processing file pair data/1-B12_S24_L001_R1_001.fastq.gz - data/1-B12_S24_L001_R2_001.fastq.gz (files 16 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 406 secs to assemble 140926 reads.
+
+
+>>>>>	Processing file pair data/1-C9_S33_L001_R1_001.fastq.gz - data/1-C9_S33_L001_R2_001.fastq.gz (files 36 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 256 secs to assemble 89081 reads.
+
+
+>>>>>	Processing file pair data/2-E8_S152_L001_R1_001.fastq.gz - data/2-E8_S152_L001_R2_001.fastq.gz (files 155 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 324 secs to assemble 113226 reads.
+
+
+>>>>>	Processing file pair data/2-B11_S119_L001_R1_001.fastq.gz - data/2-B11_S119_L001_R2_001.fastq.gz (files 111 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 329 secs to assemble 114550 reads.
+
+
+>>>>>	Processing file pair data/1-G9_S81_L001_R1_001.fastq.gz - data/1-G9_S81_L001_R2_001.fastq.gz (files 84 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 258 secs to assemble 89897 reads.
+
+
+>>>>>	Processing file pair data/1-F10_S70_L001_R1_001.fastq.gz - data/1-F10_S70_L001_R2_001.fastq.gz (files 62 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 273 secs to assemble 95195 reads.
+
+
+>>>>>	Processing file pair data/2-C9_S129_L001_R1_001.fastq.gz - data/2-C9_S129_L001_R2_001.fastq.gz (files 132 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 258 secs to assemble 90219 reads.
+
+
+>>>>>	Processing file pair data/1-B2_S14_L001_R1_001.fastq.gz - data/1-B2_S14_L001_R2_001.fastq.gz (files 17 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 230 secs to assemble 80182 reads.
+
+
+>>>>>	Processing file pair data/2-G8_S176_L001_R1_001.fastq.gz - data/2-G8_S176_L001_R2_001.fastq.gz (files 179 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 345 secs to assemble 120230 reads.
+
+
+>>>>>	Processing file pair data/2-E9_S153_L001_R1_001.fastq.gz - data/2-E9_S153_L001_R2_001.fastq.gz (files 156 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 275 secs to assemble 96088 reads.
+
+
+>>>>>	Processing file pair data/2-B12_S120_L001_R1_001.fastq.gz - data/2-B12_S120_L001_R2_001.fastq.gz (files 112 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 300 secs to assemble 104898 reads.
+
+
+>>>>>	Processing file pair data/1-D1_S37_L001_R1_001.fastq.gz - data/1-D1_S37_L001_R2_001.fastq.gz (files 37 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 385 secs to assemble 134709 reads.
+
+
+>>>>>	Processing file pair data/1-B3_S15_L001_R1_001.fastq.gz - data/1-B3_S15_L001_R2_001.fastq.gz (files 18 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 233 secs to assemble 81450 reads.
+
+
+>>>>>	Processing file pair data/1-F11_S71_L001_R1_001.fastq.gz - data/1-F11_S71_L001_R2_001.fastq.gz (files 63 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 281 secs to assemble 98172 reads.
+
+
+>>>>>	Processing file pair data/2-D1_S133_L001_R1_001.fastq.gz - data/2-D1_S133_L001_R2_001.fastq.gz (files 133 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 255 secs to assemble 88899 reads.
+
+
+>>>>>	Processing file pair data/1-H1_S85_L001_R1_001.fastq.gz - data/1-H1_S85_L001_R2_001.fastq.gz (files 85 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 401 secs to assemble 139374 reads.
+
+
+>>>>>	Processing file pair data/2-G9_S177_L001_R1_001.fastq.gz - data/2-G9_S177_L001_R2_001.fastq.gz (files 180 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 289 secs to assemble 101032 reads.
+
+
+>>>>>	Processing file pair data/1-B4_S16_L001_R1_001.fastq.gz - data/1-B4_S16_L001_R2_001.fastq.gz (files 19 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 155 secs to assemble 54143 reads.
+
+
+>>>>>	Processing file pair data/2-B2_S110_L001_R1_001.fastq.gz - data/2-B2_S110_L001_R2_001.fastq.gz (files 113 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 232 secs to assemble 80600 reads.
+
+
+>>>>>	Processing file pair data/2-F1_S157_L001_R1_001.fastq.gz - data/2-F1_S157_L001_R2_001.fastq.gz (files 157 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 318 secs to assemble 111377 reads.
+
+
+>>>>>	Processing file pair data/1-D10_S46_L001_R1_001.fastq.gz - data/1-D10_S46_L001_R2_001.fastq.gz (files 38 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 276 secs to assemble 96244 reads.
+
+
+>>>>>	Processing file pair data/2-D10_S142_L001_R1_001.fastq.gz - data/2-D10_S142_L001_R2_001.fastq.gz (files 134 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 222 secs to assemble 77338 reads.
+
+
+>>>>>	Processing file pair data/1-H10_S94_L001_R1_001.fastq.gz - data/1-H10_S94_L001_R2_001.fastq.gz (files 86 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 195 secs to assemble 67910 reads.
+
+
+>>>>>	Processing file pair data/2-H1_S181_L001_R1_001.fastq.gz - data/2-H1_S181_L001_R2_001.fastq.gz (files 181 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 236 secs to assemble 82503 reads.
+
+
+>>>>>	Processing file pair data/1-F12_S72_L001_R1_001.fastq.gz - data/1-F12_S72_L001_R2_001.fastq.gz (files 64 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 330 secs to assemble 114975 reads.
+
+
+>>>>>	Processing file pair data/1-B5_S17_L001_R1_001.fastq.gz - data/1-B5_S17_L001_R2_001.fastq.gz (files 20 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 228 secs to assemble 79319 reads.
+
+
+>>>>>	Processing file pair data/2-B3_S111_L001_R1_001.fastq.gz - data/2-B3_S111_L001_R2_001.fastq.gz (files 114 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 258 secs to assemble 90466 reads.
+
+
+>>>>>	Processing file pair data/2-D11_S143_L001_R1_001.fastq.gz - data/2-D11_S143_L001_R2_001.fastq.gz (files 135 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 226 secs to assemble 78717 reads.
+
+
+>>>>>	Processing file pair data/2-D12_S144_L001_R1_001.fastq.gz - data/2-D12_S144_L001_R2_001.fastq.gz (files 136 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 3 secs to assemble 8042 reads.
+
+
+>>>>>	Processing file pair data/1-D11_S47_L001_R1_001.fastq.gz - data/1-D11_S47_L001_R2_001.fastq.gz (files 39 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 295 secs to assemble 103073 reads.
+
+
+>>>>>	Processing file pair data/1-D12_S48_L001_R1_001.fastq.gz - data/1-D12_S48_L001_R2_001.fastq.gz (files 40 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 2 secs to assemble 1898 reads.
+
+
+>>>>>	Processing file pair data/1-H11_S95_L001_R1_001.fastq.gz - data/1-H11_S95_L001_R2_001.fastq.gz (files 87 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 261 secs to assemble 91272 reads.
+
+
+>>>>>	Processing file pair data/2-F10_S166_L001_R1_001.fastq.gz - data/2-F10_S166_L001_R2_001.fastq.gz (files 158 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 348 secs to assemble 121191 reads.
+
+
+>>>>>	Processing file pair data/1-H12_S96_L001_R1_001.fastq.gz - data/1-H12_S96_L001_R2_001.fastq.gz (files 88 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 23 secs to assemble 13146 reads.
+
+
+>>>>>	Processing file pair data/2-H10_S190_L001_R1_001.fastq.gz - data/2-H10_S190_L001_R2_001.fastq.gz (files 182 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 233 secs to assemble 80622 reads.
+
+
+>>>>>	Processing file pair data/2-D2_S134_L001_R1_001.fastq.gz - data/2-D2_S134_L001_R2_001.fastq.gz (files 137 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 133 secs to assemble 46328 reads.
+
+
+>>>>>	Processing file pair data/1-F2_S62_L001_R1_001.fastq.gz - data/1-F2_S62_L001_R2_001.fastq.gz (files 65 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 295 secs to assemble 102552 reads.
+
+
+>>>>>	Processing file pair data/1-B6_S18_L001_R1_001.fastq.gz - data/1-B6_S18_L001_R2_001.fastq.gz (files 21 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 254 secs to assemble 88307 reads.
+
+
+>>>>>	Processing file pair data/2-B4_S112_L001_R1_001.fastq.gz - data/2-B4_S112_L001_R2_001.fastq.gz (files 115 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 316 secs to assemble 109930 reads.
+
+
+>>>>>	Processing file pair data/2-H11_S191_L001_R1_001.fastq.gz - data/2-H11_S191_L001_R2_001.fastq.gz (files 183 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 194 secs to assemble 68034 reads.
+
+
+>>>>>	Processing file pair data/2-H12_S192_L001_R1_001.fastq.gz - data/2-H12_S192_L001_R2_001.fastq.gz (files 184 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 5 secs to assemble 10850 reads.
+
+
+>>>>>	Processing file pair data/1-D2_S38_L001_R1_001.fastq.gz - data/1-D2_S38_L001_R2_001.fastq.gz (files 41 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 251 secs to assemble 87144 reads.
+
+
+>>>>>	Processing file pair data/2-D3_S135_L001_R1_001.fastq.gz - data/2-D3_S135_L001_R2_001.fastq.gz (files 138 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 218 secs to assemble 76146 reads.
+
+
+>>>>>	Processing file pair data/2-F11_S167_L001_R1_001.fastq.gz - data/2-F11_S167_L001_R2_001.fastq.gz (files 159 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 275 secs to assemble 95790 reads.
+
+
+>>>>>	Processing file pair data/1-B7_S19_L001_R1_001.fastq.gz - data/1-B7_S19_L001_R2_001.fastq.gz (files 22 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 230 secs to assemble 80140 reads.
+
+
+>>>>>	Processing file pair data/1-H2_S86_L001_R1_001.fastq.gz - data/1-H2_S86_L001_R2_001.fastq.gz (files 89 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 354 secs to assemble 123394 reads.
+
+
+>>>>>	Processing file pair data/2-H2_S182_L001_R1_001.fastq.gz - data/2-H2_S182_L001_R2_001.fastq.gz (files 185 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 149 secs to assemble 52034 reads.
+
+
+>>>>>	Processing file pair data/1-F3_S63_L001_R1_001.fastq.gz - data/1-F3_S63_L001_R2_001.fastq.gz (files 66 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 281 secs to assemble 97936 reads.
+
+
+>>>>>	Processing file pair data/2-B5_S113_L001_R1_001.fastq.gz - data/2-B5_S113_L001_R2_001.fastq.gz (files 116 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 233 secs to assemble 81173 reads.
+
+
+>>>>>	Processing file pair data/2-D4_S136_L001_R1_001.fastq.gz - data/2-D4_S136_L001_R2_001.fastq.gz (files 139 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 191 secs to assemble 66757 reads.
+
+
+>>>>>	Processing file pair data/1-B8_S20_L001_R1_001.fastq.gz - data/1-B8_S20_L001_R2_001.fastq.gz (files 23 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 174 secs to assemble 60634 reads.
+
+
+>>>>>	Processing file pair data/1-D3_S39_L001_R1_001.fastq.gz - data/1-D3_S39_L001_R2_001.fastq.gz (files 42 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 274 secs to assemble 95656 reads.
+
+
+>>>>>	Processing file pair data/2-H3_S183_L001_R1_001.fastq.gz - data/2-H3_S183_L001_R2_001.fastq.gz (files 186 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 236 secs to assemble 82911 reads.
+
+
+>>>>>	Processing file pair data/2-F12_S168_L001_R1_001.fastq.gz - data/2-F12_S168_L001_R2_001.fastq.gz (files 160 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 335 secs to assemble 116631 reads.
+
+
+>>>>>	Processing file pair data/2-D5_S137_L001_R1_001.fastq.gz - data/2-D5_S137_L001_R2_001.fastq.gz (files 140 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 155 secs to assemble 53874 reads.
+
+
+>>>>>	Processing file pair data/2-D6_S138_L001_R1_001.fastq.gz - data/2-D6_S138_L001_R2_001.fastq.gz (files 141 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 4 secs to assemble 8651 reads.
+
+
+>>>>>	Processing file pair data/1-F4_S64_L001_R1_001.fastq.gz - data/1-F4_S64_L001_R2_001.fastq.gz (files 67 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 254 secs to assemble 88615 reads.
+
+
+>>>>>	Processing file pair data/2-B6_S114_L001_R1_001.fastq.gz - data/2-B6_S114_L001_R2_001.fastq.gz (files 117 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 280 secs to assemble 97620 reads.
+
+
+>>>>>	Processing file pair data/1-H3_S87_L001_R1_001.fastq.gz - data/1-H3_S87_L001_R2_001.fastq.gz (files 90 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 351 secs to assemble 122452 reads.
+
+
+>>>>>	Processing file pair data/1-B9_S21_L001_R1_001.fastq.gz - data/1-B9_S21_L001_R2_001.fastq.gz (files 24 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 224 secs to assemble 77839 reads.
+
+
+>>>>>	Processing file pair data/1-D4_S40_L001_R1_001.fastq.gz - data/1-D4_S40_L001_R2_001.fastq.gz (files 43 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 251 secs to assemble 88700 reads.
+
+
+>>>>>	Processing file pair data/2-F2_S158_L001_R1_001.fastq.gz - data/2-F2_S158_L001_R2_001.fastq.gz (files 161 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 177 secs to assemble 64021 reads.
+
+
+>>>>>	Processing file pair data/1-F5_S65_L001_R1_001.fastq.gz - data/1-F5_S65_L001_R2_001.fastq.gz (files 68 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 246 secs to assemble 89359 reads.
+
+
+>>>>>	Processing file pair data/2-H4_S184_L001_R1_001.fastq.gz - data/2-H4_S184_L001_R2_001.fastq.gz (files 187 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 265 secs to assemble 96684 reads.
+
+
+>>>>>	Processing file pair data/2-D7_S139_L001_R1_001.fastq.gz - data/2-D7_S139_L001_R2_001.fastq.gz (files 142 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 254 secs to assemble 93055 reads.
+
+
+>>>>>	Processing file pair data/1-D5_S41_L001_R1_001.fastq.gz - data/1-D5_S41_L001_R2_001.fastq.gz (files 44 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 188 secs to assemble 70566 reads.
+
+
+>>>>>	Processing file pair data/1-D6_S42_L001_R1_001.fastq.gz - data/1-D6_S42_L001_R2_001.fastq.gz (files 45 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 1532 reads.
+
+
+>>>>>	Processing file pair data/1-H4_S88_L001_R1_001.fastq.gz - data/1-H4_S88_L001_R2_001.fastq.gz (files 91 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 236 secs to assemble 89123 reads.
+
+
+>>>>>	Processing file pair data/2-B7_S115_L001_R1_001.fastq.gz - data/2-B7_S115_L001_R2_001.fastq.gz (files 118 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 283 secs to assemble 106902 reads.
+
+
+>>>>>	Processing file pair data/2-H5_S185_L001_R1_001.fastq.gz - data/2-H5_S185_L001_R2_001.fastq.gz (files 188 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 210 secs to assemble 79710 reads.
+
+
+>>>>>	Processing file pair data/2-D8_S140_L001_R1_001.fastq.gz - data/2-D8_S140_L001_R2_001.fastq.gz (files 143 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 208 secs to assemble 78524 reads.
+
+
+>>>>>	Processing file pair data/2-H6_S186_L001_R1_001.fastq.gz - data/2-H6_S186_L001_R2_001.fastq.gz (files 189 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 10 secs to assemble 25349 reads.
+
+
+>>>>>	Processing file pair data/2-F3_S159_L001_R1_001.fastq.gz - data/2-F3_S159_L001_R2_001.fastq.gz (files 162 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 299 secs to assemble 113492 reads.
+
+
+>>>>>	Processing file pair data/1-F6_S66_L001_R1_001.fastq.gz - data/1-F6_S66_L001_R2_001.fastq.gz (files 69 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 225 secs to assemble 85727 reads.
+
+
+>>>>>	Processing file pair data/1-D7_S43_L001_R1_001.fastq.gz - data/1-D7_S43_L001_R2_001.fastq.gz (files 46 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 188 secs to assemble 71379 reads.
+
+
+>>>>>	Processing file pair data/1-H5_S89_L001_R1_001.fastq.gz - data/1-H5_S89_L001_R2_001.fastq.gz (files 92 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 224 secs to assemble 85075 reads.
+
+
+>>>>>	Processing file pair data/1-H6_S90_L001_R1_001.fastq.gz - data/1-H6_S90_L001_R2_001.fastq.gz (files 93 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 2930 reads.
+
+
+>>>>>	Processing file pair data/2-D9_S141_L001_R1_001.fastq.gz - data/2-D9_S141_L001_R2_001.fastq.gz (files 144 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 167 secs to assemble 63568 reads.
+
+
+>>>>>	Processing file pair data/1-D8_S44_L001_R1_001.fastq.gz - data/1-D8_S44_L001_R2_001.fastq.gz (files 47 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 145 secs to assemble 56441 reads.
+
+
+>>>>>	Processing file pair data/2-B8_S116_L001_R1_001.fastq.gz - data/2-B8_S116_L001_R2_001.fastq.gz (files 119 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 298 secs to assemble 114875 reads.
+
+
+>>>>>	Processing file pair data/1-F7_S67_L001_R1_001.fastq.gz - data/1-F7_S67_L001_R2_001.fastq.gz (files 70 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 194 secs to assemble 75559 reads.
+
+
+>>>>>	Processing file pair data/2-H7_S187_L001_R1_001.fastq.gz - data/2-H7_S187_L001_R2_001.fastq.gz (files 190 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 270 secs to assemble 107193 reads.
+
+
+>>>>>	Processing file pair data/1-H7_S91_L001_R1_001.fastq.gz - data/1-H7_S91_L001_R2_001.fastq.gz (files 94 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 242 secs to assemble 99325 reads.
+
+
+>>>>>	Processing file pair data/2-F4_S160_L001_R1_001.fastq.gz - data/2-F4_S160_L001_R2_001.fastq.gz (files 163 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 352 secs to assemble 141811 reads.
+
+
+>>>>>	Processing file pair data/1-D9_S45_L001_R1_001.fastq.gz - data/1-D9_S45_L001_R2_001.fastq.gz (files 48 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 172 secs to assemble 72994 reads.
+
+
+>>>>>	Processing file pair data/1-F8_S68_L001_R1_001.fastq.gz - data/1-F8_S68_L001_R2_001.fastq.gz (files 71 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 182 secs to assemble 78409 reads.
+
+
+>>>>>	Processing file pair data/1-F9_S69_L001_R1_001.fastq.gz - data/1-F9_S69_L001_R2_001.fastq.gz (files 72 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 6 secs to assemble 3195 reads.
+
+
+>>>>>	Processing file pair data/2-B9_S117_L001_R1_001.fastq.gz - data/2-B9_S117_L001_R2_001.fastq.gz (files 120 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 200 secs to assemble 87388 reads.
+
+
+>>>>>	Processing file pair data/2-H8_S188_L001_R1_001.fastq.gz - data/2-H8_S188_L001_R2_001.fastq.gz (files 191 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 184 secs to assemble 93739 reads.
+
+
+>>>>>	Processing file pair data/1-H8_S92_L001_R1_001.fastq.gz - data/1-H8_S92_L001_R2_001.fastq.gz (files 95 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 129 secs to assemble 71315 reads.
+
+
+>>>>>	Processing file pair data/2-F5_S161_L001_R1_001.fastq.gz - data/2-F5_S161_L001_R2_001.fastq.gz (files 164 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 145 secs to assemble 87756 reads.
+
+
+>>>>>	Processing file pair data/2-H9_S189_L001_R1_001.fastq.gz - data/2-H9_S189_L001_R2_001.fastq.gz (files 192 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 119 secs to assemble 77789 reads.
+
+
+>>>>>	Processing file pair data/1-H9_S93_L001_R1_001.fastq.gz - data/1-H9_S93_L001_R2_001.fastq.gz (files 96 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 129 secs to assemble 83394 reads.
+
+
+>>>>>	Processing file pair data/2-F6_S162_L001_R1_001.fastq.gz - data/2-F6_S162_L001_R2_001.fastq.gz (files 165 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 142 secs to assemble 96462 reads.
+
+
+>>>>>	Processing file pair data/2-F7_S163_L001_R1_001.fastq.gz - data/2-F7_S163_L001_R2_001.fastq.gz (files 166 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 137 secs to assemble 99251 reads.
+
+
+>>>>>	Processing file pair data/2-F8_S164_L001_R1_001.fastq.gz - data/2-F8_S164_L001_R2_001.fastq.gz (files 167 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 164 secs to assemble 120059 reads.
+
+
+>>>>>	Processing file pair data/2-F9_S165_L001_R1_001.fastq.gz - data/2-F9_S165_L001_R2_001.fastq.gz (files 168 of 192)	<<<<<
+Making contigs...
+Done.
+
+It took 138 secs to assemble 101087 reads.
+
+It took 6761 secs to process 16722010 sequences.
+
+Group count: 
+1-A1	102782
+1-A10	79841
+1-A11	59486
+1-A12	1305
+1-A2	64540
+1-A3	78949
+1-A4	56736
+1-A5	60096
+1-A6	1380
+1-A7	67844
+1-A8	56634
+1-A9	58014
+1-B1	127663
+1-B10	89249
+1-B11	92355
+1-B12	140926
+1-B2	80182
+1-B3	81450
+1-B4	54143
+1-B5	79319
+1-B6	88307
+1-B7	80140
+1-B8	60634
+1-B9	77839
+1-C1	143054
+1-C10	97568
+1-C11	108451
+1-C12	145351
+1-C2	74360
+1-C3	85947
+1-C4	81199
+1-C5	78132
+1-C6	79199
+1-C7	83974
+1-C8	82689
+1-C9	89081
+1-D1	134709
+1-D10	96244
+1-D11	103073
+1-D12	1898
+1-D2	87144
+1-D3	95656
+1-D4	88700
+1-D5	70566
+1-D6	1532
+1-D7	71379
+1-D8	56441
+1-D9	72994
+1-E1	105669
+1-E10	88587
+1-E11	85108
+1-E12	103428
+1-E2	72563
+1-E3	74704
+1-E4	52302
+1-E5	91028
+1-E6	74083
+1-E7	67973
+1-E8	63939
+1-E9	75885
+1-F1	152267
+1-F10	95195
+1-F11	98172
+1-F12	114975
+1-F2	102552
+1-F3	97936
+1-F4	88615
+1-F5	89359
+1-F6	85727
+1-F7	75559
+1-F8	78409
+1-F9	3195
+1-G1	139702
+1-G10	86007
+1-G11	106690
+1-G12	120721
+1-G2	110276
+1-G3	101657
+1-G4	89737
+1-G5	74044
+1-G6	102177
+1-G7	88406
+1-G8	74936
+1-G9	89897
+1-H1	139374
+1-H10	67910
+1-H11	91272
+1-H12	13146
+1-H2	123394
+1-H3	122452
+1-H4	89123
+1-H5	85075
+1-H6	2930
+1-H7	99325
+1-H8	71315
+1-H9	83394
+2-A1	106290
+2-A10	103766
+2-A11	77664
+2-A12	5216
+2-A2	50326
+2-A3	85832
+2-A4	90689
+2-A5	57944
+2-A6	20851
+2-A7	100290
+2-A8	84930
+2-A9	77259
+2-B1	120499
+2-B10	97611
+2-B11	114550
+2-B12	104898
+2-B2	80600
+2-B3	90466
+2-B4	109930
+2-B5	81173
+2-B6	97620
+2-B7	106902
+2-B8	114875
+2-B9	87388
+2-C1	118344
+2-C10	113731
+2-C11	99048
+2-C12	98236
+2-C2	74533
+2-C3	98586
+2-C4	109313
+2-C5	85222
+2-C6	100740
+2-C7	129071
+2-C8	99346
+2-C9	90219
+2-D1	88899
+2-D10	77338
+2-D11	78717
+2-D12	8042
+2-D2	46328
+2-D3	76146
+2-D4	66757
+2-D5	53874
+2-D6	8651
+2-D7	93055
+2-D8	78524
+2-D9	63568
+2-E1	124402
+2-E10	115302
+2-E11	123669
+2-E12	143110
+2-E2	56609
+2-E3	81919
+2-E4	114090
+2-E5	79497
+2-E6	93925
+2-E7	117637
+2-E8	113226
+2-E9	96088
+2-F1	111377
+2-F10	121191
+2-F11	95790
+2-F12	116631
+2-F2	64021
+2-F3	113492
+2-F4	141811
+2-F5	87756
+2-F6	96462
+2-F7	99251
+2-F8	120059
+2-F9	101087
+2-G1	140906
+2-G10	129828
+2-G11	104445
+2-G12	112920
+2-G2	67526
+2-G3	107387
+2-G4	127589
+2-G5	85660
+2-G6	118537
+2-G7	116928
+2-G8	120230
+2-G9	101032
+2-H1	82503
+2-H10	80622
+2-H11	68034
+2-H12	10850
+2-H2	52034
+2-H3	82911
+2-H4	96684
+2-H5	79710
+2-H6	25349
+2-H7	107193
+2-H8	93739
+2-H9	77789
+
+Total of all groups is 16722010
+
+Output File Names: 
+mothur//mgtst.trim.contigs.fasta
+mothur//mgtst.trim.contigs.qual
+mothur//mgtst.contigs.report
+mothur//mgtst.scrap.contigs.fasta
+mothur//mgtst.scrap.contigs.qual
+mothur//mgtst.contigs.groups
+
+[WARNING]: your sequence names contained ':'.  I changed them to '_' to avoid problems in your downstream analysis.
+
+mothur > screen.seqs(fasta=current, group=current, maxambig=0, maxlength=500, maxhomop=8)
+Using mothur//mgtst.trim.contigs.fasta as input file for the fasta parameter.
+Using mothur//mgtst.contigs.groups as input file for the group parameter.
+
+Using 8 processors.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.fasta
+mothur//mgtst.trim.contigs.bad.accnos
+mothur//mgtst.contigs.good.groups
+
+
+It took 239 secs to screen 16722010 sequences.
+
+mothur > quit()
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected 193 [WARNING] messages, please review.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,0 +1,3264 @@
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A12_S108_L001_R1_001/fastqjoin.join.fastq (md5: a8c4b52f930685383c9c5ed547c3416e)
+Quality filter results
+Total number of input sequences: 4734
+Barcode not in mapping file: 0
+Read too short after quality truncation: 4722
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A12_S108_L001_R1_001	12
+
+Total number seqs written	12
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F11_S167_L001_R1_001/fastqjoin.join.fastq (md5: daf3355eb662b20d3dbf7109926660cb)
+Quality filter results
+Total number of input sequences: 30393
+Barcode not in mapping file: 0
+Read too short after quality truncation: 375
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 444.00
+2-F11_S167_L001_R1_001	30015
+
+Total number seqs written	30015
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D5_S137_L001_R1_001/fastqjoin.join.fastq (md5: 2cb6cd3e287ef167fce3f85be9e36f53)
+Quality filter results
+Total number of input sequences: 13646
+Barcode not in mapping file: 0
+Read too short after quality truncation: 134
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D5_S137_L001_R1_001	13511
+
+Total number seqs written	13511
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D3_S39_L001_R1_001/fastqjoin.join.fastq (md5: 5d26a1a04f1b26da583370bbea8ce56f)
+Quality filter results
+Total number of input sequences: 20552
+Barcode not in mapping file: 0
+Read too short after quality truncation: 438
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D3_S39_L001_R1_001	20114
+
+Total number seqs written	20114
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F5_S65_L001_R1_001/fastqjoin.join.fastq (md5: d6dde53bc20c2918d684b104c42e54c6)
+Quality filter results
+Total number of input sequences: 28581
+Barcode not in mapping file: 0
+Read too short after quality truncation: 115
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F5_S65_L001_R1_001	28466
+
+Total number seqs written	28466
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H2_S182_L001_R1_001/fastqjoin.join.fastq (md5: 62293961e9bf1093778d19abc7b7dbfd)
+Quality filter results
+Total number of input sequences: 18483
+Barcode not in mapping file: 0
+Read too short after quality truncation: 477
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H2_S182_L001_R1_001	18005
+
+Total number seqs written	18005
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F6_S66_L001_R1_001/fastqjoin.join.fastq (md5: 4b9994cb0927f3b4cfd9df33ebc2ad71)
+Quality filter results
+Total number of input sequences: 14461
+Barcode not in mapping file: 0
+Read too short after quality truncation: 99
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 445.00
+1-F6_S66_L001_R1_001	14360
+
+Total number seqs written	14360
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B12_S120_L001_R1_001/fastqjoin.join.fastq (md5: 540b14aba89b24e688b56ee6f30cb8e4)
+Quality filter results
+Total number of input sequences: 28412
+Barcode not in mapping file: 0
+Read too short after quality truncation: 282
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B12_S120_L001_R1_001	28129
+
+Total number seqs written	28129
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D3_S135_L001_R1_001/fastqjoin.join.fastq (md5: 130a7a7d2ae5044aa2a73899c34e825a)
+Quality filter results
+Total number of input sequences: 16421
+Barcode not in mapping file: 0
+Read too short after quality truncation: 838
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D3_S135_L001_R1_001	15583
+
+Total number seqs written	15583
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G10_S178_L001_R1_001/fastqjoin.join.fastq (md5: 40cef073538f3f6eb1d662e4b74d98b8)
+Quality filter results
+Total number of input sequences: 39767
+Barcode not in mapping file: 0
+Read too short after quality truncation: 341
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G10_S178_L001_R1_001	39421
+
+Total number seqs written	39421
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G8_S80_L001_R1_001/fastqjoin.join.fastq (md5: 8a680354a584d78ab2b11cf0b475131f)
+Quality filter results
+Total number of input sequences: 27161
+Barcode not in mapping file: 0
+Read too short after quality truncation: 142
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G8_S80_L001_R1_001	27019
+
+Total number seqs written	27019
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H7_S187_L001_R1_001/fastqjoin.join.fastq (md5: 58be7369fa087ac45a6d38e64b101880)
+Quality filter results
+Total number of input sequences: 39981
+Barcode not in mapping file: 0
+Read too short after quality truncation: 417
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H7_S187_L001_R1_001	39560
+
+Total number seqs written	39560
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A8_S8_L001_R1_001/fastqjoin.join.fastq (md5: 7788d904391f254f09eddfbb4cabc720)
+Quality filter results
+Total number of input sequences: 20389
+Barcode not in mapping file: 0
+Read too short after quality truncation: 145
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A8_S8_L001_R1_001	20239
+
+Total number seqs written	20239
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B6_S114_L001_R1_001/fastqjoin.join.fastq (md5: f5e50d4ccdc2bd0d5ac8d7c3e1ef6ea9)
+Quality filter results
+Total number of input sequences: 24073
+Barcode not in mapping file: 0
+Read too short after quality truncation: 413
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-B6_S114_L001_R1_001	23659
+
+Total number seqs written	23659
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A7_S103_L001_R1_001/fastqjoin.join.fastq (md5: 340e0c254562e9d11889b8b6dc99ef74)
+Quality filter results
+Total number of input sequences: 28061
+Barcode not in mapping file: 0
+Read too short after quality truncation: 258
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A7_S103_L001_R1_001	27801
+
+Total number seqs written	27801
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B8_S20_L001_R1_001/fastqjoin.join.fastq (md5: 933c1bb3ef70d6991f293653c1515943)
+Quality filter results
+Total number of input sequences: 19022
+Barcode not in mapping file: 0
+Read too short after quality truncation: 118
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B8_S20_L001_R1_001	18901
+
+Total number seqs written	18901
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G11_S83_L001_R1_001/fastqjoin.join.fastq (md5: a758420934f5dff5022482ecc18484eb)
+Quality filter results
+Total number of input sequences: 34859
+Barcode not in mapping file: 0
+Read too short after quality truncation: 210
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 444.00
+1-G11_S83_L001_R1_001	34647
+
+Total number seqs written	34647
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E11_S155_L001_R1_001/fastqjoin.join.fastq (md5: 3739af52a47ed7155e47b2ccf816c982)
+Quality filter results
+Total number of input sequences: 38523
+Barcode not in mapping file: 0
+Read too short after quality truncation: 306
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E11_S155_L001_R1_001	38214
+
+Total number seqs written	38214
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B2_S110_L001_R1_001/fastqjoin.join.fastq (md5: 0950e0fa1293afc8aa0c4f5e854be132)
+Quality filter results
+Total number of input sequences: 19701
+Barcode not in mapping file: 0
+Read too short after quality truncation: 282
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B2_S110_L001_R1_001	19419
+
+Total number seqs written	19419
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A4_S100_L001_R1_001/fastqjoin.join.fastq (md5: f748859952113363eab7a6ac77cc866e)
+Quality filter results
+Total number of input sequences: 27374
+Barcode not in mapping file: 0
+Read too short after quality truncation: 379
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A4_S100_L001_R1_001	26993
+
+Total number seqs written	26993
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C8_S128_L001_R1_001/fastqjoin.join.fastq (md5: c96749b3a13c5f6b075aff3f58e41ce6)
+Quality filter results
+Total number of input sequences: 31877
+Barcode not in mapping file: 0
+Read too short after quality truncation: 154
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C8_S128_L001_R1_001	31721
+
+Total number seqs written	31721
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B8_S116_L001_R1_001/fastqjoin.join.fastq (md5: 3702f41544ba183a08070895614ac7d0)
+Quality filter results
+Total number of input sequences: 36722
+Barcode not in mapping file: 0
+Read too short after quality truncation: 283
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B8_S116_L001_R1_001	36436
+
+Total number seqs written	36436
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E9_S153_L001_R1_001/fastqjoin.join.fastq (md5: 7885f5d59ce9770b75bec0c97588afff)
+Quality filter results
+Total number of input sequences: 21998
+Barcode not in mapping file: 0
+Read too short after quality truncation: 846
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 459.00
+2-E9_S153_L001_R1_001	21151
+
+Total number seqs written	21151
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D2_S134_L001_R1_001/fastqjoin.join.fastq (md5: 62d6a8a45911c92c58eb87c64d392616)
+Quality filter results
+Total number of input sequences: 15243
+Barcode not in mapping file: 0
+Read too short after quality truncation: 172
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D2_S134_L001_R1_001	15071
+
+Total number seqs written	15071
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H3_S87_L001_R1_001/fastqjoin.join.fastq (md5: 75f39c424e01138446e87420af9afb20)
+Quality filter results
+Total number of input sequences: 26020
+Barcode not in mapping file: 0
+Read too short after quality truncation: 702
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-H3_S87_L001_R1_001	25317
+
+Total number seqs written	25317
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A5_S5_L001_R1_001/fastqjoin.join.fastq (md5: b59bf9ff09a0c99d704f41d9a0b62146)
+Quality filter results
+Total number of input sequences: 20225
+Barcode not in mapping file: 0
+Read too short after quality truncation: 325
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+1-A5_S5_L001_R1_001	19900
+
+Total number seqs written	19900
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D1_S37_L001_R1_001/fastqjoin.join.fastq (md5: a8b4277bd6f480eccc5a7d1de397afef)
+Quality filter results
+Total number of input sequences: 40632
+Barcode not in mapping file: 0
+Read too short after quality truncation: 370
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D1_S37_L001_R1_001	40262
+
+Total number seqs written	40262
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A6_S102_L001_R1_001/fastqjoin.join.fastq (md5: 1cf06b2ddffd34d8ed7d47309b4a22ef)
+Quality filter results
+Total number of input sequences: 18978
+Barcode not in mapping file: 0
+Read too short after quality truncation: 18957
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 440.00
+2-A6_S102_L001_R1_001	21
+
+Total number seqs written	21
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E3_S147_L001_R1_001/fastqjoin.join.fastq (md5: 4ac810076aa9abcf62bf6dfab59302a7)
+Quality filter results
+Total number of input sequences: 19976
+Barcode not in mapping file: 0
+Read too short after quality truncation: 546
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 459.00
+2-E3_S147_L001_R1_001	19428
+
+Total number seqs written	19428
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A2_S98_L001_R1_001/fastqjoin.join.fastq (md5: 07cef6c981534927cd8706da67c85a8a)
+Quality filter results
+Total number of input sequences: 18017
+Barcode not in mapping file: 0
+Read too short after quality truncation: 224
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A2_S98_L001_R1_001	17790
+
+Total number seqs written	17790
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E4_S148_L001_R1_001/fastqjoin.join.fastq (md5: fd332a58b2e03dd06c24368c7570241e)
+Quality filter results
+Total number of input sequences: 35876
+Barcode not in mapping file: 0
+Read too short after quality truncation: 410
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E4_S148_L001_R1_001	35464
+
+Total number seqs written	35464
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E7_S55_L001_R1_001/fastqjoin.join.fastq (md5: d1f36c435f9adcf335d8e694babac65f)
+Quality filter results
+Total number of input sequences: 22032
+Barcode not in mapping file: 0
+Read too short after quality truncation: 247
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E7_S55_L001_R1_001	21785
+
+Total number seqs written	21785
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C1_S121_L001_R1_001/fastqjoin.join.fastq (md5: 60f53b9e4c6e7cef78e3f5c824baf22e)
+Quality filter results
+Total number of input sequences: 37209
+Barcode not in mapping file: 0
+Read too short after quality truncation: 539
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C1_S121_L001_R1_001	36670
+
+Total number seqs written	36670
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E2_S146_L001_R1_001/fastqjoin.join.fastq (md5: 35b639a20fd37bc56651e71134682efe)
+Quality filter results
+Total number of input sequences: 20564
+Barcode not in mapping file: 0
+Read too short after quality truncation: 242
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E2_S146_L001_R1_001	20321
+
+Total number seqs written	20321
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E1_S145_L001_R1_001/fastqjoin.join.fastq (md5: 1d0fa9e786f1e4d84d9001409775f17d)
+Quality filter results
+Total number of input sequences: 41710
+Barcode not in mapping file: 0
+Read too short after quality truncation: 671
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E1_S145_L001_R1_001	41038
+
+Total number seqs written	41038
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B9_S117_L001_R1_001/fastqjoin.join.fastq (md5: 118678ed7263b4cb4f1f3a1288f4ff5f)
+Quality filter results
+Total number of input sequences: 22856
+Barcode not in mapping file: 0
+Read too short after quality truncation: 277
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B9_S117_L001_R1_001	22578
+
+Total number seqs written	22578
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D6_S138_L001_R1_001/fastqjoin.join.fastq (md5: b6df31246865bf5d331cd8a5355ce1d4)
+Quality filter results
+Total number of input sequences: 7913
+Barcode not in mapping file: 0
+Read too short after quality truncation: 7900
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 440.00
+2-D6_S138_L001_R1_001	13
+
+Total number seqs written	13
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E8_S56_L001_R1_001/fastqjoin.join.fastq (md5: e4872fbb17d9c061daf7f001689b97f6)
+Quality filter results
+Total number of input sequences: 21286
+Barcode not in mapping file: 0
+Read too short after quality truncation: 160
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E8_S56_L001_R1_001	21123
+
+Total number seqs written	21123
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H9_S93_L001_R1_001/fastqjoin.join.fastq (md5: 24b2ce9aae81227d85193de9f4874f7a)
+Quality filter results
+Total number of input sequences: 23091
+Barcode not in mapping file: 0
+Read too short after quality truncation: 198
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 440.00
+1-H9_S93_L001_R1_001	22893
+
+Total number seqs written	22893
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C7_S127_L001_R1_001/fastqjoin.join.fastq (md5: 4aa53d95d83b9cef5b83e905792df44e)
+Quality filter results
+Total number of input sequences: 42091
+Barcode not in mapping file: 0
+Read too short after quality truncation: 533
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C7_S127_L001_R1_001	41554
+
+Total number seqs written	41554
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B7_S115_L001_R1_001/fastqjoin.join.fastq (md5: 39c4dab2fadbf5ead6fef7dbb2a4b7c8)
+Quality filter results
+Total number of input sequences: 34041
+Barcode not in mapping file: 0
+Read too short after quality truncation: 503
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B7_S115_L001_R1_001	33536
+
+Total number seqs written	33536
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C4_S28_L001_R1_001/fastqjoin.join.fastq (md5: 2984a20d3f64a6beda5e59d073f27f9c)
+Quality filter results
+Total number of input sequences: 11637
+Barcode not in mapping file: 0
+Read too short after quality truncation: 5912
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C4_S28_L001_R1_001	5725
+
+Total number seqs written	5725
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A11_S11_L001_R1_001/fastqjoin.join.fastq (md5: 0b56c294aadcfa88d7c290343fd8f541)
+Quality filter results
+Total number of input sequences: 18596
+Barcode not in mapping file: 0
+Read too short after quality truncation: 132
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-A11_S11_L001_R1_001	18460
+
+Total number seqs written	18460
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H12_S192_L001_R1_001/fastqjoin.join.fastq (md5: 85b14cf786b42241f8e0e7d3f6c313a4)
+Quality filter results
+Total number of input sequences: 9976
+Barcode not in mapping file: 0
+Read too short after quality truncation: 9961
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H12_S192_L001_R1_001	15
+
+Total number seqs written	15
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G6_S174_L001_R1_001/fastqjoin.join.fastq (md5: 5fbb3f8feecc8d352552bf306822fb1c)
+Quality filter results
+Total number of input sequences: 28795
+Barcode not in mapping file: 0
+Read too short after quality truncation: 551
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G6_S174_L001_R1_001	28244
+
+Total number seqs written	28244
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D4_S136_L001_R1_001/fastqjoin.join.fastq (md5: 22257b107c7543e9e1f28ea0066f9547)
+Quality filter results
+Total number of input sequences: 18443
+Barcode not in mapping file: 0
+Read too short after quality truncation: 321
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D4_S136_L001_R1_001	18122
+
+Total number seqs written	18122
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H8_S92_L001_R1_001/fastqjoin.join.fastq (md5: 26db0d15df60acca33f3f67c85f7be67)
+Quality filter results
+Total number of input sequences: 25149
+Barcode not in mapping file: 0
+Read too short after quality truncation: 136
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H8_S92_L001_R1_001	25011
+
+Total number seqs written	25011
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C3_S27_L001_R1_001/fastqjoin.join.fastq (md5: c4c3bd42a6f241d8c18d39b99cf51eb7)
+Quality filter results
+Total number of input sequences: 20405
+Barcode not in mapping file: 0
+Read too short after quality truncation: 476
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C3_S27_L001_R1_001	19929
+
+Total number seqs written	19929
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B10_S22_L001_R1_001/fastqjoin.join.fastq (md5: f6718804b47f6997973bb2a1854d5a2f)
+Quality filter results
+Total number of input sequences: 16756
+Barcode not in mapping file: 0
+Read too short after quality truncation: 136
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 458.00
+1-B10_S22_L001_R1_001	16620
+
+Total number seqs written	16620
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F9_S69_L001_R1_001/fastqjoin.join.fastq (md5: 7f5d8a3b9b8261994898326483c01ae1)
+Quality filter results
+Total number of input sequences: 1068
+Barcode not in mapping file: 0
+Read too short after quality truncation: 5
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 166.00
+1-F9_S69_L001_R1_001	1063
+
+Total number seqs written	1063
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H6_S186_L001_R1_001/fastqjoin.join.fastq (md5: 3af45acfb0aa1b423166835bdb5aed67)
+Quality filter results
+Total number of input sequences: 23131
+Barcode not in mapping file: 0
+Read too short after quality truncation: 23097
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 440.00
+2-H6_S186_L001_R1_001	34
+
+Total number seqs written	34
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F3_S159_L001_R1_001/fastqjoin.join.fastq (md5: 6854becb25eb5549567818c253fa4149)
+Quality filter results
+Total number of input sequences: 26014
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1221
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+2-F3_S159_L001_R1_001	24791
+
+Total number seqs written	24791
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A1_S97_L001_R1_001/fastqjoin.join.fastq (md5: f2d09c28a47d7eb54221043026d25f2e)
+Quality filter results
+Total number of input sequences: 34454
+Barcode not in mapping file: 0
+Read too short after quality truncation: 655
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A1_S97_L001_R1_001	33798
+
+Total number seqs written	33798
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B5_S113_L001_R1_001/fastqjoin.join.fastq (md5: 49b6cc927c70296838a14aa76ca2ac53)
+Quality filter results
+Total number of input sequences: 24969
+Barcode not in mapping file: 0
+Read too short after quality truncation: 151
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B5_S113_L001_R1_001	24816
+
+Total number seqs written	24816
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D10_S142_L001_R1_001/fastqjoin.join.fastq (md5: 8e672e0d5639446b386c4858ff34f842)
+Quality filter results
+Total number of input sequences: 20789
+Barcode not in mapping file: 0
+Read too short after quality truncation: 257
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D10_S142_L001_R1_001	20531
+
+Total number seqs written	20531
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B3_S15_L001_R1_001/fastqjoin.join.fastq (md5: ef6fffa63a894aaec13a3692adbc1e0b)
+Quality filter results
+Total number of input sequences: 22295
+Barcode not in mapping file: 0
+Read too short after quality truncation: 311
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B3_S15_L001_R1_001	21982
+
+Total number seqs written	21982
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D5_S41_L001_R1_001/fastqjoin.join.fastq (md5: 5d8191f84d3894711c4f556c3ebda860)
+Quality filter results
+Total number of input sequences: 20598
+Barcode not in mapping file: 0
+Read too short after quality truncation: 85
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D5_S41_L001_R1_001	20513
+
+Total number seqs written	20513
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G5_S77_L001_R1_001/fastqjoin.join.fastq (md5: 281591df5c26222902d20e164c89a45d)
+Quality filter results
+Total number of input sequences: 23637
+Barcode not in mapping file: 0
+Read too short after quality truncation: 104
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+1-G5_S77_L001_R1_001	23533
+
+Total number seqs written	23533
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G9_S177_L001_R1_001/fastqjoin.join.fastq (md5: 37cb3a556a624a58d618b21240903aad)
+Quality filter results
+Total number of input sequences: 21372
+Barcode not in mapping file: 0
+Read too short after quality truncation: 921
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-G9_S177_L001_R1_001	20450
+
+Total number seqs written	20450
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F12_S72_L001_R1_001/fastqjoin.join.fastq (md5: 5c870f7da017facc8ac66c81363d8499)
+Quality filter results
+Total number of input sequences: 21519
+Barcode not in mapping file: 0
+Read too short after quality truncation: 271
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 444.00
+1-F12_S72_L001_R1_001	21248
+
+Total number seqs written	21248
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B6_S18_L001_R1_001/fastqjoin.join.fastq (md5: 18e8ac59573d2298cb65921c6059f30f)
+Quality filter results
+Total number of input sequences: 22347
+Barcode not in mapping file: 0
+Read too short after quality truncation: 161
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+1-B6_S18_L001_R1_001	22185
+
+Total number seqs written	22185
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E11_S59_L001_R1_001/fastqjoin.join.fastq (md5: 9b5362566a420dca5d9132af390fd33b)
+Quality filter results
+Total number of input sequences: 22570
+Barcode not in mapping file: 0
+Read too short after quality truncation: 166
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E11_S59_L001_R1_001	22404
+
+Total number seqs written	22404
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F10_S166_L001_R1_001/fastqjoin.join.fastq (md5: 5588be8b03613ba98da20f71ee9e4212)
+Quality filter results
+Total number of input sequences: 37572
+Barcode not in mapping file: 0
+Read too short after quality truncation: 268
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F10_S166_L001_R1_001	37303
+
+Total number seqs written	37303
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F1_S61_L001_R1_001/fastqjoin.join.fastq (md5: 6db1dc17773f711e3de8edbc9324d934)
+Quality filter results
+Total number of input sequences: 44151
+Barcode not in mapping file: 0
+Read too short after quality truncation: 168
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F1_S61_L001_R1_001	43982
+
+Total number seqs written	43982
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H11_S95_L001_R1_001/fastqjoin.join.fastq (md5: f3b095df56af809482d42bc652b30148)
+Quality filter results
+Total number of input sequences: 29565
+Barcode not in mapping file: 0
+Read too short after quality truncation: 446
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+1-H11_S95_L001_R1_001	29119
+
+Total number seqs written	29119
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D8_S44_L001_R1_001/fastqjoin.join.fastq (md5: 0685680a50f6c9d064a925cd406cee83)
+Quality filter results
+Total number of input sequences: 18449
+Barcode not in mapping file: 0
+Read too short after quality truncation: 99
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D8_S44_L001_R1_001	18348
+
+Total number seqs written	18348
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G4_S76_L001_R1_001/fastqjoin.join.fastq (md5: 1b11885f43ccf190ad7263c65b66cbee)
+Quality filter results
+Total number of input sequences: 30986
+Barcode not in mapping file: 0
+Read too short after quality truncation: 188
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G4_S76_L001_R1_001	30796
+
+Total number seqs written	30796
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C4_S124_L001_R1_001/fastqjoin.join.fastq (md5: 757eeabe803784c5073602fc06704e65)
+Quality filter results
+Total number of input sequences: 32051
+Barcode not in mapping file: 0
+Read too short after quality truncation: 632
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C4_S124_L001_R1_001	31419
+
+Total number seqs written	31419
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B1_S13_L001_R1_001/fastqjoin.join.fastq (md5: 7239d3d8620a5d601d51d162caca1ad9)
+Quality filter results
+Total number of input sequences: 37973
+Barcode not in mapping file: 0
+Read too short after quality truncation: 254
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B1_S13_L001_R1_001	37716
+
+Total number seqs written	37716
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A11_S107_L001_R1_001/fastqjoin.join.fastq (md5: 64ba3ec435b1f4b0587f2c0a66fb8cf9)
+Quality filter results
+Total number of input sequences: 24971
+Barcode not in mapping file: 0
+Read too short after quality truncation: 289
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 441.00
+2-A11_S107_L001_R1_001	24678
+
+Total number seqs written	24678
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H10_S94_L001_R1_001/fastqjoin.join.fastq (md5: 7880c7b65d0e2a07f95fff7e218e253d)
+Quality filter results
+Total number of input sequences: 15766
+Barcode not in mapping file: 0
+Read too short after quality truncation: 141
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H10_S94_L001_R1_001	15624
+
+Total number seqs written	15624
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B4_S112_L001_R1_001/fastqjoin.join.fastq (md5: 770866b79ae6b7287089472f687a6991)
+Quality filter results
+Total number of input sequences: 30736
+Barcode not in mapping file: 0
+Read too short after quality truncation: 380
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 459.00
+2-B4_S112_L001_R1_001	30354
+
+Total number seqs written	30354
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F8_S164_L001_R1_001/fastqjoin.join.fastq (md5: 12e47ba21024dcab6c8de8ee6e5033ce)
+Quality filter results
+Total number of input sequences: 42719
+Barcode not in mapping file: 0
+Read too short after quality truncation: 245
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F8_S164_L001_R1_001	42472
+
+Total number seqs written	42472
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E5_S53_L001_R1_001/fastqjoin.join.fastq (md5: f9147b55d89ae0add28f727928b86c32)
+Quality filter results
+Total number of input sequences: 20116
+Barcode not in mapping file: 0
+Read too short after quality truncation: 218
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E5_S53_L001_R1_001	19898
+
+Total number seqs written	19898
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D9_S141_L001_R1_001/fastqjoin.join.fastq (md5: d6540c9e896da3acd3fda9f805655181)
+Quality filter results
+Total number of input sequences: 13117
+Barcode not in mapping file: 0
+Read too short after quality truncation: 619
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D9_S141_L001_R1_001	12498
+
+Total number seqs written	12498
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H5_S185_L001_R1_001/fastqjoin.join.fastq (md5: e024a7fe442f358d2f221a47af253afc)
+Quality filter results
+Total number of input sequences: 28543
+Barcode not in mapping file: 0
+Read too short after quality truncation: 618
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-H5_S185_L001_R1_001	27924
+
+Total number seqs written	27924
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G9_S81_L001_R1_001/fastqjoin.join.fastq (md5: abedf8ce1d69ef1390264c16ff0494ba)
+Quality filter results
+Total number of input sequences: 21787
+Barcode not in mapping file: 0
+Read too short after quality truncation: 678
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-G9_S81_L001_R1_001	21109
+
+Total number seqs written	21109
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E3_S51_L001_R1_001/fastqjoin.join.fastq (md5: 8f57b0d873901263e8438857a1329e48)
+Quality filter results
+Total number of input sequences: 16210
+Barcode not in mapping file: 0
+Read too short after quality truncation: 399
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 459.00
+1-E3_S51_L001_R1_001	15811
+
+Total number seqs written	15811
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H4_S184_L001_R1_001/fastqjoin.join.fastq (md5: c1a92ca93dc202722662a98166d0320d)
+Quality filter results
+Total number of input sequences: 31763
+Barcode not in mapping file: 0
+Read too short after quality truncation: 615
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H4_S184_L001_R1_001	31146
+
+Total number seqs written	31146
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E9_S57_L001_R1_001/fastqjoin.join.fastq (md5: 7ba60a550b205b3361db4df72495b298)
+Quality filter results
+Total number of input sequences: 18331
+Barcode not in mapping file: 0
+Read too short after quality truncation: 181
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E9_S57_L001_R1_001	18149
+
+Total number seqs written	18149
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E8_S152_L001_R1_001/fastqjoin.join.fastq (md5: 4ddeedc080fcfffd74e47f3891fa54b0)
+Quality filter results
+Total number of input sequences: 39818
+Barcode not in mapping file: 0
+Read too short after quality truncation: 295
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E8_S152_L001_R1_001	39522
+
+Total number seqs written	39522
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A3_S3_L001_R1_001/fastqjoin.join.fastq (md5: 2d1d14ecc7cc30e5cf37bf86f4aa2cc9)
+Quality filter results
+Total number of input sequences: 16945
+Barcode not in mapping file: 0
+Read too short after quality truncation: 387
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-A3_S3_L001_R1_001	16556
+
+Total number seqs written	16556
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H12_S96_L001_R1_001/fastqjoin.join.fastq (md5: 126a81a92e9e06e83b4db7277b1a7961)
+Quality filter results
+Total number of input sequences: 8508
+Barcode not in mapping file: 0
+Read too short after quality truncation: 5814
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H12_S96_L001_R1_001	2694
+
+Total number seqs written	2694
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A2_S2_L001_R1_001/fastqjoin.join.fastq (md5: 3952c5222a22c1bcf7786edf3412e59a)
+Quality filter results
+Total number of input sequences: 23280
+Barcode not in mapping file: 0
+Read too short after quality truncation: 131
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A2_S2_L001_R1_001	23148
+
+Total number seqs written	23148
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G3_S171_L001_R1_001/fastqjoin.join.fastq (md5: 697911fe7624ddb0ac40ca7c9c7d2177)
+Quality filter results
+Total number of input sequences: 24291
+Barcode not in mapping file: 0
+Read too short after quality truncation: 578
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-G3_S171_L001_R1_001	23709
+
+Total number seqs written	23709
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D6_S42_L001_R1_001/fastqjoin.join.fastq (md5: dee69a1594b32df7e73e205331b650a3)
+Quality filter results
+Total number of input sequences: 1287
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1279
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D6_S42_L001_R1_001	8
+
+Total number seqs written	8
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E6_S150_L001_R1_001/fastqjoin.join.fastq (md5: 5ba47dcc5ac7231542619cb6593aa317)
+Quality filter results
+Total number of input sequences: 26567
+Barcode not in mapping file: 0
+Read too short after quality truncation: 397
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E6_S150_L001_R1_001	26169
+
+Total number seqs written	26169
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G7_S79_L001_R1_001/fastqjoin.join.fastq (md5: 4eb48050349f81f142299e564aee94df)
+Quality filter results
+Total number of input sequences: 31259
+Barcode not in mapping file: 0
+Read too short after quality truncation: 168
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G7_S79_L001_R1_001	31086
+
+Total number seqs written	31086
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F11_S71_L001_R1_001/fastqjoin.join.fastq (md5: 5b4215a55d6bbfbecab27f69053b7905)
+Quality filter results
+Total number of input sequences: 28867
+Barcode not in mapping file: 0
+Read too short after quality truncation: 100
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F11_S71_L001_R1_001	28766
+
+Total number seqs written	28766
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F1_S157_L001_R1_001/fastqjoin.join.fastq (md5: f318f84553a938fa194c3c303ab14972)
+Quality filter results
+Total number of input sequences: 38774
+Barcode not in mapping file: 0
+Read too short after quality truncation: 756
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F1_S157_L001_R1_001	38017
+
+Total number seqs written	38017
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B12_S24_L001_R1_001/fastqjoin.join.fastq (md5: 515cf33aaea1ad7d022e503e9fcb0b04)
+Quality filter results
+Total number of input sequences: 36448
+Barcode not in mapping file: 0
+Read too short after quality truncation: 160
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+1-B12_S24_L001_R1_001	36286
+
+Total number seqs written	36286
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B5_S17_L001_R1_001/fastqjoin.join.fastq (md5: 5716bd199861004474f52308d4c4f92f)
+Quality filter results
+Total number of input sequences: 23715
+Barcode not in mapping file: 0
+Read too short after quality truncation: 109
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B5_S17_L001_R1_001	23606
+
+Total number seqs written	23606
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E12_S60_L001_R1_001/fastqjoin.join.fastq (md5: 78f643825f36a8e07779410686f77ccb)
+Quality filter results
+Total number of input sequences: 28446
+Barcode not in mapping file: 0
+Read too short after quality truncation: 289
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E12_S60_L001_R1_001	28157
+
+Total number seqs written	28157
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F8_S68_L001_R1_001/fastqjoin.join.fastq (md5: 1601fd4c04530fba4fb68891b50d34df)
+Quality filter results
+Total number of input sequences: 25219
+Barcode not in mapping file: 0
+Read too short after quality truncation: 136
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F8_S68_L001_R1_001	25081
+
+Total number seqs written	25081
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D11_S47_L001_R1_001/fastqjoin.join.fastq (md5: a2be6f18d399669b5ac8ca68eca93819)
+Quality filter results
+Total number of input sequences: 26721
+Barcode not in mapping file: 0
+Read too short after quality truncation: 160
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D11_S47_L001_R1_001	26558
+
+Total number seqs written	26558
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C1_S25_L001_R1_001/fastqjoin.join.fastq (md5: 88001d1f17027652e49625349359a426)
+Quality filter results
+Total number of input sequences: 41906
+Barcode not in mapping file: 0
+Read too short after quality truncation: 334
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C1_S25_L001_R1_001	41569
+
+Total number seqs written	41569
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C3_S123_L001_R1_001/fastqjoin.join.fastq (md5: 9fc7ca81e1c9171f7f9188c87b239b7b)
+Quality filter results
+Total number of input sequences: 25518
+Barcode not in mapping file: 0
+Read too short after quality truncation: 958
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C3_S123_L001_R1_001	24560
+
+Total number seqs written	24560
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C10_S34_L001_R1_001/fastqjoin.join.fastq (md5: 20961560ca1cdbe93194a7dcb1f9d2e1)
+Quality filter results
+Total number of input sequences: 25760
+Barcode not in mapping file: 0
+Read too short after quality truncation: 162
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C10_S34_L001_R1_001	25596
+
+Total number seqs written	25596
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G5_S173_L001_R1_001/fastqjoin.join.fastq (md5: bbda58fea100557fa17cf0b1a5c4f7e9)
+Quality filter results
+Total number of input sequences: 29787
+Barcode not in mapping file: 0
+Read too short after quality truncation: 478
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 445.00
+2-G5_S173_L001_R1_001	29307
+
+Total number seqs written	29307
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G10_S82_L001_R1_001/fastqjoin.join.fastq (md5: b7b7e34ccf50afd7848d4193d844cf69)
+Quality filter results
+Total number of input sequences: 25437
+Barcode not in mapping file: 0
+Read too short after quality truncation: 212
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G10_S82_L001_R1_001	25224
+
+Total number seqs written	25224
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A9_S105_L001_R1_001/fastqjoin.join.fastq (md5: c6aae912f93e7e496c5b32fac6cb1b90)
+Quality filter results
+Total number of input sequences: 15174
+Barcode not in mapping file: 0
+Read too short after quality truncation: 950
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-A9_S105_L001_R1_001	14224
+
+Total number seqs written	14224
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E7_S151_L001_R1_001/fastqjoin.join.fastq (md5: 95fb8846fcf9646b473c5d86f4934474)
+Quality filter results
+Total number of input sequences: 40965
+Barcode not in mapping file: 0
+Read too short after quality truncation: 425
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E7_S151_L001_R1_001	40538
+
+Total number seqs written	40538
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A1_S1_L001_R1_001/fastqjoin.join.fastq (md5: d75a781144a4398172e79bdb18849d10)
+Quality filter results
+Total number of input sequences: 33596
+Barcode not in mapping file: 0
+Read too short after quality truncation: 168
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A1_S1_L001_R1_001	33428
+
+Total number seqs written	33428
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H8_S188_L001_R1_001/fastqjoin.join.fastq (md5: 2a2106fce5a32acbac39a8f0499f891d)
+Quality filter results
+Total number of input sequences: 35788
+Barcode not in mapping file: 0
+Read too short after quality truncation: 282
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H8_S188_L001_R1_001	35503
+
+Total number seqs written	35503
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A4_S4_L001_R1_001/fastqjoin.join.fastq (md5: 830fa9c47a47cd7b4dbc8ee17fc45835)
+Quality filter results
+Total number of input sequences: 19148
+Barcode not in mapping file: 0
+Read too short after quality truncation: 91
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A4_S4_L001_R1_001	19056
+
+Total number seqs written	19056
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G2_S170_L001_R1_001/fastqjoin.join.fastq (md5: 3ca32e01ae1e7dd1132037d327a89eb5)
+Quality filter results
+Total number of input sequences: 25132
+Barcode not in mapping file: 0
+Read too short after quality truncation: 229
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G2_S170_L001_R1_001	24902
+
+Total number seqs written	24902
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C8_S32_L001_R1_001/fastqjoin.join.fastq (md5: 15d40c2afc85a6754a8bc6a98fbdc065)
+Quality filter results
+Total number of input sequences: 24989
+Barcode not in mapping file: 0
+Read too short after quality truncation: 228
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C8_S32_L001_R1_001	24758
+
+Total number seqs written	24758
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E6_S54_L001_R1_001/fastqjoin.join.fastq (md5: 9cacfae392939208a4989ee0b4559040)
+Quality filter results
+Total number of input sequences: 20409
+Barcode not in mapping file: 0
+Read too short after quality truncation: 264
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E6_S54_L001_R1_001	20143
+
+Total number seqs written	20143
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C9_S33_L001_R1_001/fastqjoin.join.fastq (md5: beebb1f2aa865d763bf5efab89b4690c)
+Quality filter results
+Total number of input sequences: 22439
+Barcode not in mapping file: 0
+Read too short after quality truncation: 778
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C9_S33_L001_R1_001	21661
+
+Total number seqs written	21661
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C5_S29_L001_R1_001/fastqjoin.join.fastq (md5: 6065f9521f008b548ab2a5e1d72311cb)
+Quality filter results
+Total number of input sequences: 17030
+Barcode not in mapping file: 0
+Read too short after quality truncation: 129
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C5_S29_L001_R1_001	16900
+
+Total number seqs written	16900
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A5_S101_L001_R1_001/fastqjoin.join.fastq (md5: 2252a7bd1accfcdf8f69b5a2323d5725)
+Quality filter results
+Total number of input sequences: 19574
+Barcode not in mapping file: 0
+Read too short after quality truncation: 306
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-A5_S101_L001_R1_001	19267
+
+Total number seqs written	19267
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H1_S85_L001_R1_001/fastqjoin.join.fastq (md5: 026a67b8be68a7e0e5239657889c9b88)
+Quality filter results
+Total number of input sequences: 43950
+Barcode not in mapping file: 0
+Read too short after quality truncation: 274
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H1_S85_L001_R1_001	43674
+
+Total number seqs written	43674
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G12_S84_L001_R1_001/fastqjoin.join.fastq (md5: 8b5c434f00a0e2ef8878400b7f6d4e55)
+Quality filter results
+Total number of input sequences: 31564
+Barcode not in mapping file: 0
+Read too short after quality truncation: 151
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G12_S84_L001_R1_001	31412
+
+Total number seqs written	31412
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E10_S58_L001_R1_001/fastqjoin.join.fastq (md5: dcbc4bad8ea31fd45a4e4732ec3c6ee3)
+Quality filter results
+Total number of input sequences: 24597
+Barcode not in mapping file: 0
+Read too short after quality truncation: 233
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E10_S58_L001_R1_001	24364
+
+Total number seqs written	24364
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A3_S99_L001_R1_001/fastqjoin.join.fastq (md5: 57a92b2bf753e4a9b62b20025c1d1cdb)
+Quality filter results
+Total number of input sequences: 18598
+Barcode not in mapping file: 0
+Read too short after quality truncation: 11347
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A3_S99_L001_R1_001	7251
+
+Total number seqs written	7251
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F4_S160_L001_R1_001/fastqjoin.join.fastq (md5: 45434cd326ca01d4c441f9a7ec6e3244)
+Quality filter results
+Total number of input sequences: 44750
+Barcode not in mapping file: 0
+Read too short after quality truncation: 572
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F4_S160_L001_R1_001	44178
+
+Total number seqs written	44178
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B10_S118_L001_R1_001/fastqjoin.join.fastq (md5: b7398891a75d0c926a860ac055ee8e93)
+Quality filter results
+Total number of input sequences: 26291
+Barcode not in mapping file: 0
+Read too short after quality truncation: 189
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B10_S118_L001_R1_001	26101
+
+Total number seqs written	26101
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E5_S149_L001_R1_001/fastqjoin.join.fastq (md5: da3598b4ec1b3c9d2529098a98729b27)
+Quality filter results
+Total number of input sequences: 24433
+Barcode not in mapping file: 0
+Read too short after quality truncation: 245
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E5_S149_L001_R1_001	24188
+
+Total number seqs written	24188
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D12_S144_L001_R1_001/fastqjoin.join.fastq (md5: d0ea91918e344206cc5701cc82f54390)
+Quality filter results
+Total number of input sequences: 7490
+Barcode not in mapping file: 0
+Read too short after quality truncation: 7478
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 45.00
+2-D12_S144_L001_R1_001	12
+
+Total number seqs written	12
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C10_S130_L001_R1_001/fastqjoin.join.fastq (md5: 13fe8b95b1c5b371f6ce063c99fe53af)
+Quality filter results
+Total number of input sequences: 32463
+Barcode not in mapping file: 0
+Read too short after quality truncation: 289
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C10_S130_L001_R1_001	32174
+
+Total number seqs written	32174
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F7_S163_L001_R1_001/fastqjoin.join.fastq (md5: e2d13cf94d9a50942aa0269d22e8641b)
+Quality filter results
+Total number of input sequences: 34146
+Barcode not in mapping file: 0
+Read too short after quality truncation: 375
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F7_S163_L001_R1_001	33766
+
+Total number seqs written	33766
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A8_S104_L001_R1_001/fastqjoin.join.fastq (md5: d90bae528dc1c96522f51e62ec0c00a9)
+Quality filter results
+Total number of input sequences: 28616
+Barcode not in mapping file: 0
+Read too short after quality truncation: 320
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A8_S104_L001_R1_001	28292
+
+Total number seqs written	28292
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A10_S10_L001_R1_001/fastqjoin.join.fastq (md5: d7ae820e3dac44fb458087bd7be9dae4)
+Quality filter results
+Total number of input sequences: 23455
+Barcode not in mapping file: 0
+Read too short after quality truncation: 209
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A10_S10_L001_R1_001	23246
+
+Total number seqs written	23246
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F2_S62_L001_R1_001/fastqjoin.join.fastq (md5: be40c7cdf8471ebf4aa0219d398da0f9)
+Quality filter results
+Total number of input sequences: 35560
+Barcode not in mapping file: 0
+Read too short after quality truncation: 151
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F2_S62_L001_R1_001	35407
+
+Total number seqs written	35407
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H10_S190_L001_R1_001/fastqjoin.join.fastq (md5: cdd3054caa480067263f5eae3b2c051f)
+Quality filter results
+Total number of input sequences: 26869
+Barcode not in mapping file: 0
+Read too short after quality truncation: 210
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H10_S190_L001_R1_001	26659
+
+Total number seqs written	26659
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D12_S48_L001_R1_001/fastqjoin.join.fastq (md5: 9f6c1ad59ad45f8da50b19bb8c4cd84b)
+Quality filter results
+Total number of input sequences: 1588
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1567
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-D12_S48_L001_R1_001	21
+
+Total number seqs written	21
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G4_S172_L001_R1_001/fastqjoin.join.fastq (md5: f828f803fa9ca311f1cf43159d414904)
+Quality filter results
+Total number of input sequences: 41156
+Barcode not in mapping file: 0
+Read too short after quality truncation: 550
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G4_S172_L001_R1_001	40603
+
+Total number seqs written	40603
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D8_S140_L001_R1_001/fastqjoin.join.fastq (md5: 8dad88824f30e666c0e34307166ceb24)
+Quality filter results
+Total number of input sequences: 23980
+Barcode not in mapping file: 0
+Read too short after quality truncation: 159
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D8_S140_L001_R1_001	23820
+
+Total number seqs written	23820
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C6_S30_L001_R1_001/fastqjoin.join.fastq (md5: 0ba6ccebe31e3324c554b4cb974aadac)
+Quality filter results
+Total number of input sequences: 21408
+Barcode not in mapping file: 0
+Read too short after quality truncation: 234
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C6_S30_L001_R1_001	21174
+
+Total number seqs written	21174
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B2_S14_L001_R1_001/fastqjoin.join.fastq (md5: f71a91d63909dbca1196b68b3ee07027)
+Quality filter results
+Total number of input sequences: 25884
+Barcode not in mapping file: 0
+Read too short after quality truncation: 128
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B2_S14_L001_R1_001	25755
+
+Total number seqs written	25755
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D4_S40_L001_R1_001/fastqjoin.join.fastq (md5: 8711ad8a459248b4990cce0c35b7918a)
+Quality filter results
+Total number of input sequences: 27655
+Barcode not in mapping file: 0
+Read too short after quality truncation: 176
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D4_S40_L001_R1_001	27477
+
+Total number seqs written	27477
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E4_S52_L001_R1_001/fastqjoin.join.fastq (md5: 2a8d65255273ec73a1dcccf0e4a686a2)
+Quality filter results
+Total number of input sequences: 1452
+Barcode not in mapping file: 0
+Read too short after quality truncation: 20
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 459.00
+1-E4_S52_L001_R1_001	1432
+
+Total number seqs written	1432
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H2_S86_L001_R1_001/fastqjoin.join.fastq (md5: 208744277496520aba20bc12dec2b291)
+Quality filter results
+Total number of input sequences: 43405
+Barcode not in mapping file: 0
+Read too short after quality truncation: 316
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H2_S86_L001_R1_001	43088
+
+Total number seqs written	43088
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F3_S63_L001_R1_001/fastqjoin.join.fastq (md5: e2df8747ee988048a9f3db82a351cb67)
+Quality filter results
+Total number of input sequences: 20018
+Barcode not in mapping file: 0
+Read too short after quality truncation: 428
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+1-F3_S63_L001_R1_001	19590
+
+Total number seqs written	19590
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H11_S191_L001_R1_001/fastqjoin.join.fastq (md5: ca1d2130e6b9bb2558a1e30b62fa0187)
+Quality filter results
+Total number of input sequences: 24138
+Barcode not in mapping file: 0
+Read too short after quality truncation: 679
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-H11_S191_L001_R1_001	23457
+
+Total number seqs written	23457
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H9_S189_L001_R1_001/fastqjoin.join.fastq (md5: e0545ac60fdced624d0f160419c6635f)
+Quality filter results
+Total number of input sequences: 18831
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1020
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 441.00
+2-H9_S189_L001_R1_001	17811
+
+Total number seqs written	17811
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G1_S73_L001_R1_001/fastqjoin.join.fastq (md5: 4c2cdc8b7c560a770248c2852b9f8ce1)
+Quality filter results
+Total number of input sequences: 45829
+Barcode not in mapping file: 0
+Read too short after quality truncation: 199
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G1_S73_L001_R1_001	45629
+
+Total number seqs written	45629
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D7_S43_L001_R1_001/fastqjoin.join.fastq (md5: 165fa60bd35134657a9230e60a67627e)
+Quality filter results
+Total number of input sequences: 23126
+Barcode not in mapping file: 0
+Read too short after quality truncation: 159
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D7_S43_L001_R1_001	22967
+
+Total number seqs written	22967
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C6_S126_L001_R1_001/fastqjoin.join.fastq (md5: 1bab83181fb3ed7b22f8a73946c18465)
+Quality filter results
+Total number of input sequences: 27515
+Barcode not in mapping file: 0
+Read too short after quality truncation: 565
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C6_S126_L001_R1_001	26949
+
+Total number seqs written	26949
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B7_S19_L001_R1_001/fastqjoin.join.fastq (md5: 27e4964ddf0d1df05be526fcee5ff3dc)
+Quality filter results
+Total number of input sequences: 25447
+Barcode not in mapping file: 0
+Read too short after quality truncation: 171
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B7_S19_L001_R1_001	25273
+
+Total number seqs written	25273
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H1_S181_L001_R1_001/fastqjoin.join.fastq (md5: f04fbadd9b1c88f83ff4e7a1c2d75c57)
+Quality filter results
+Total number of input sequences: 27811
+Barcode not in mapping file: 0
+Read too short after quality truncation: 613
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-H1_S181_L001_R1_001	27193
+
+Total number seqs written	27193
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E10_S154_L001_R1_001/fastqjoin.join.fastq (md5: c43e8c15f421476596e60270dd615ea8)
+Quality filter results
+Total number of input sequences: 35311
+Barcode not in mapping file: 0
+Read too short after quality truncation: 287
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E10_S154_L001_R1_001	35024
+
+Total number seqs written	35024
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C5_S125_L001_R1_001/fastqjoin.join.fastq (md5: 00dbc4c68f602f2876c76c04494ec965)
+Quality filter results
+Total number of input sequences: 25172
+Barcode not in mapping file: 0
+Read too short after quality truncation: 241
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C5_S125_L001_R1_001	24931
+
+Total number seqs written	24931
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G11_S179_L001_R1_001/fastqjoin.join.fastq (md5: abad63bfd060950c3ae436e7fc31fa7b)
+Quality filter results
+Total number of input sequences: 34640
+Barcode not in mapping file: 0
+Read too short after quality truncation: 443
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+2-G11_S179_L001_R1_001	34195
+
+Total number seqs written	34195
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G2_S74_L001_R1_001/fastqjoin.join.fastq (md5: 5ba32ba1d73440185d4dd2a5f3f9ba41)
+Quality filter results
+Total number of input sequences: 39636
+Barcode not in mapping file: 0
+Read too short after quality truncation: 178
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G2_S74_L001_R1_001	39458
+
+Total number seqs written	39458
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D2_S38_L001_R1_001/fastqjoin.join.fastq (md5: 53ed1112946ee867b4c1e6701dab9ca9)
+Quality filter results
+Total number of input sequences: 28522
+Barcode not in mapping file: 0
+Read too short after quality truncation: 117
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D2_S38_L001_R1_001	28404
+
+Total number seqs written	28404
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D11_S143_L001_R1_001/fastqjoin.join.fastq (md5: 17772382a6201b36f6bee67992240cc2)
+Quality filter results
+Total number of input sequences: 21179
+Barcode not in mapping file: 0
+Read too short after quality truncation: 323
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D11_S143_L001_R1_001	20854
+
+Total number seqs written	20854
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C11_S131_L001_R1_001/fastqjoin.join.fastq (md5: 62dbbac768e85f67354d21a5b04943e7)
+Quality filter results
+Total number of input sequences: 27769
+Barcode not in mapping file: 0
+Read too short after quality truncation: 244
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C11_S131_L001_R1_001	27524
+
+Total number seqs written	27524
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F9_S165_L001_R1_001/fastqjoin.join.fastq (md5: 1abddab49f399ce99802ffb1aca5fd32)
+Quality filter results
+Total number of input sequences: 22505
+Barcode not in mapping file: 0
+Read too short after quality truncation: 210
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+2-F9_S165_L001_R1_001	22294
+
+Total number seqs written	22294
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F7_S67_L001_R1_001/fastqjoin.join.fastq (md5: 98710135daa3cdff1687a440add607ef)
+Quality filter results
+Total number of input sequences: 25518
+Barcode not in mapping file: 0
+Read too short after quality truncation: 125
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F7_S67_L001_R1_001	25390
+
+Total number seqs written	25390
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F12_S168_L001_R1_001/fastqjoin.join.fastq (md5: cc60eba5812761089927f0252bea8955)
+Quality filter results
+Total number of input sequences: 23184
+Barcode not in mapping file: 0
+Read too short after quality truncation: 235
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 446.00
+2-F12_S168_L001_R1_001	22947
+
+Total number seqs written	22947
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H5_S89_L001_R1_001/fastqjoin.join.fastq (md5: f0e0b07e2af1c9f6dc6c3ec36a8b798c)
+Quality filter results
+Total number of input sequences: 24606
+Barcode not in mapping file: 0
+Read too short after quality truncation: 165
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-H5_S89_L001_R1_001	24441
+
+Total number seqs written	24441
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B11_S23_L001_R1_001/fastqjoin.join.fastq (md5: e3f5ddab8e00fe6b140a87cb47523541)
+Quality filter results
+Total number of input sequences: 25582
+Barcode not in mapping file: 0
+Read too short after quality truncation: 196
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B11_S23_L001_R1_001	25384
+
+Total number seqs written	25384
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-E12_S156_L001_R1_001/fastqjoin.join.fastq (md5: 4411d789076e32a01891a7b0532e261e)
+Quality filter results
+Total number of input sequences: 44719
+Barcode not in mapping file: 0
+Read too short after quality truncation: 456
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-E12_S156_L001_R1_001	44263
+
+Total number seqs written	44263
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G12_S180_L001_R1_001/fastqjoin.join.fastq (md5: dcdbfbbc5bb93c0c7025c8ead88e9ba2)
+Quality filter results
+Total number of input sequences: 33120
+Barcode not in mapping file: 0
+Read too short after quality truncation: 323
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G12_S180_L001_R1_001	32797
+
+Total number seqs written	32797
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B1_S109_L001_R1_001/fastqjoin.join.fastq (md5: 9a907c6a5195e81dd730aadbce36e94f)
+Quality filter results
+Total number of input sequences: 37886
+Barcode not in mapping file: 0
+Read too short after quality truncation: 458
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B1_S109_L001_R1_001	37426
+
+Total number seqs written	37426
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A9_S9_L001_R1_001/fastqjoin.join.fastq (md5: 8d94d93011ff6ceb8b14b408219b7a4e)
+Quality filter results
+Total number of input sequences: 12867
+Barcode not in mapping file: 0
+Read too short after quality truncation: 293
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-A9_S9_L001_R1_001	12573
+
+Total number seqs written	12573
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E1_S49_L001_R1_001/fastqjoin.join.fastq (md5: 39ca65d24090d66824e7b01f0332ae9a)
+Quality filter results
+Total number of input sequences: 31539
+Barcode not in mapping file: 0
+Read too short after quality truncation: 237
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E1_S49_L001_R1_001	31300
+
+Total number seqs written	31300
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F4_S64_L001_R1_001/fastqjoin.join.fastq (md5: 1b16830e3702938164bf72a664cda8ab)
+Quality filter results
+Total number of input sequences: 28600
+Barcode not in mapping file: 0
+Read too short after quality truncation: 176
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F4_S64_L001_R1_001	28421
+
+Total number seqs written	28421
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F5_S161_L001_R1_001/fastqjoin.join.fastq (md5: 77da37a5b21bea95fa0ceac301d9d46d)
+Quality filter results
+Total number of input sequences: 29067
+Barcode not in mapping file: 0
+Read too short after quality truncation: 399
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F5_S161_L001_R1_001	28667
+
+Total number seqs written	28667
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C12_S36_L001_R1_001/fastqjoin.join.fastq (md5: 9f34ead1c8bd37d45e256cdcf8f2f710)
+Quality filter results
+Total number of input sequences: 39983
+Barcode not in mapping file: 0
+Read too short after quality truncation: 274
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C12_S36_L001_R1_001	39708
+
+Total number seqs written	39708
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C2_S122_L001_R1_001/fastqjoin.join.fastq (md5: 2064b3a466b1b8eb9907a31618bd4cb4)
+Quality filter results
+Total number of input sequences: 25194
+Barcode not in mapping file: 0
+Read too short after quality truncation: 299
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C2_S122_L001_R1_001	24895
+
+Total number seqs written	24895
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H6_S90_L001_R1_001/fastqjoin.join.fastq (md5: 575c40daa01c81bc76386ed317c16943)
+Quality filter results
+Total number of input sequences: 2596
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2576
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 450.00
+1-H6_S90_L001_R1_001	20
+
+Total number seqs written	20
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D10_S46_L001_R1_001/fastqjoin.join.fastq (md5: dd133845d6228c08c2bd9a14251df03b)
+Quality filter results
+Total number of input sequences: 26660
+Barcode not in mapping file: 0
+Read too short after quality truncation: 188
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D10_S46_L001_R1_001	26470
+
+Total number seqs written	26470
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B9_S21_L001_R1_001/fastqjoin.join.fastq (md5: ad6298b54284697fa1e38ab397a7a1f3)
+Quality filter results
+Total number of input sequences: 19534
+Barcode not in mapping file: 0
+Read too short after quality truncation: 267
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-B9_S21_L001_R1_001	19267
+
+Total number seqs written	19267
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-D9_S45_L001_R1_001/fastqjoin.join.fastq (md5: a8babfea9951268a6c330d460e5bf4d7)
+Quality filter results
+Total number of input sequences: 17507
+Barcode not in mapping file: 0
+Read too short after quality truncation: 542
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-D9_S45_L001_R1_001	16964
+
+Total number seqs written	16964
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C7_S31_L001_R1_001/fastqjoin.join.fastq (md5: d3af2b1ab02a7fc149e4478a5421ca51)
+Quality filter results
+Total number of input sequences: 27048
+Barcode not in mapping file: 0
+Read too short after quality truncation: 930
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C7_S31_L001_R1_001	26117
+
+Total number seqs written	26117
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C12_S132_L001_R1_001/fastqjoin.join.fastq (md5: 319778409aa7489df5003ac9429f85ff)
+Quality filter results
+Total number of input sequences: 28658
+Barcode not in mapping file: 0
+Read too short after quality truncation: 311
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C12_S132_L001_R1_001	28345
+
+Total number seqs written	28345
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-E2_S50_L001_R1_001/fastqjoin.join.fastq (md5: 6a7328552bc722efdf1ba204f5677b2a)
+Quality filter results
+Total number of input sequences: 22609
+Barcode not in mapping file: 0
+Read too short after quality truncation: 130
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-E2_S50_L001_R1_001	22477
+
+Total number seqs written	22477
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B11_S119_L001_R1_001/fastqjoin.join.fastq (md5: 1903aa3ac7e5ad853c3d819a6b7b064e)
+Quality filter results
+Total number of input sequences: 34292
+Barcode not in mapping file: 0
+Read too short after quality truncation: 209
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B11_S119_L001_R1_001	34082
+
+Total number seqs written	34082
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F2_S158_L001_R1_001/fastqjoin.join.fastq (md5: 8839c8b0bf8e075137df437eec72786d)
+Quality filter results
+Total number of input sequences: 23922
+Barcode not in mapping file: 0
+Read too short after quality truncation: 256
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-F2_S158_L001_R1_001	23664
+
+Total number seqs written	23664
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G8_S176_L001_R1_001/fastqjoin.join.fastq (md5: 0fee707d9f78e959abc7271a61485645)
+Quality filter results
+Total number of input sequences: 42652
+Barcode not in mapping file: 0
+Read too short after quality truncation: 374
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G8_S176_L001_R1_001	42274
+
+Total number seqs written	42274
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C2_S26_L001_R1_001/fastqjoin.join.fastq (md5: 419f5ae4ed7343d706dc4ca0a5151113)
+Quality filter results
+Total number of input sequences: 22008
+Barcode not in mapping file: 0
+Read too short after quality truncation: 129
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C2_S26_L001_R1_001	21879
+
+Total number seqs written	21879
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-C9_S129_L001_R1_001/fastqjoin.join.fastq (md5: 01f8bb79fec46eeda2415076e3148e56)
+Quality filter results
+Total number of input sequences: 21719
+Barcode not in mapping file: 0
+Read too short after quality truncation: 598
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-C9_S129_L001_R1_001	21121
+
+Total number seqs written	21121
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D1_S133_L001_R1_001/fastqjoin.join.fastq (md5: f732fafa63937e148b7e5336c1d78f54)
+Quality filter results
+Total number of input sequences: 26983
+Barcode not in mapping file: 0
+Read too short after quality truncation: 544
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D1_S133_L001_R1_001	26437
+
+Total number seqs written	26437
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A6_S6_L001_R1_001/fastqjoin.join.fastq (md5: 5753408d3a3ab1603d6e8cf58cc38bcc)
+Quality filter results
+Total number of input sequences: 1156
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1150
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 462.50
+1-A6_S6_L001_R1_001	6
+
+Total number seqs written	6
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A7_S7_L001_R1_001/fastqjoin.join.fastq (md5: aa14f6c1b5ea37b152b8f922cdf9565b)
+Quality filter results
+Total number of input sequences: 22931
+Barcode not in mapping file: 0
+Read too short after quality truncation: 203
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A7_S7_L001_R1_001	22726
+
+Total number seqs written	22726
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G6_S78_L001_R1_001/fastqjoin.join.fastq (md5: 797b661a965598ae66e835bbc83bba13)
+Quality filter results
+Total number of input sequences: 26258
+Barcode not in mapping file: 0
+Read too short after quality truncation: 182
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-G6_S78_L001_R1_001	26075
+
+Total number seqs written	26075
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-F10_S70_L001_R1_001/fastqjoin.join.fastq (md5: 670a7a56aac652b91f0a6c7c30ec5cf1)
+Quality filter results
+Total number of input sequences: 28041
+Barcode not in mapping file: 0
+Read too short after quality truncation: 156
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-F10_S70_L001_R1_001	27885
+
+Total number seqs written	27885
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H7_S91_L001_R1_001/fastqjoin.join.fastq (md5: 5e7ccd24f0fefae3e7022cbbdedf78ec)
+Quality filter results
+Total number of input sequences: 35118
+Barcode not in mapping file: 0
+Read too short after quality truncation: 319
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H7_S91_L001_R1_001	34799
+
+Total number seqs written	34799
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-A10_S106_L001_R1_001/fastqjoin.join.fastq (md5: 7eabdaddbdb19d7988d8c93dfe6de3de)
+Quality filter results
+Total number of input sequences: 30254
+Barcode not in mapping file: 0
+Read too short after quality truncation: 139
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-A10_S106_L001_R1_001	30114
+
+Total number seqs written	30114
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-D7_S139_L001_R1_001/fastqjoin.join.fastq (md5: 6f8804f87551ff679ee58851bfce6768)
+Quality filter results
+Total number of input sequences: 28472
+Barcode not in mapping file: 0
+Read too short after quality truncation: 343
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-D7_S139_L001_R1_001	28129
+
+Total number seqs written	28129
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G1_S169_L001_R1_001/fastqjoin.join.fastq (md5: f6d0061c8518c09fe6e225b9941a940a)
+Quality filter results
+Total number of input sequences: 47646
+Barcode not in mapping file: 0
+Read too short after quality truncation: 588
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G1_S169_L001_R1_001	47058
+
+Total number seqs written	47058
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-G7_S175_L001_R1_001/fastqjoin.join.fastq (md5: 0fb0874901bc4d0398c9cfa12259f6a3)
+Quality filter results
+Total number of input sequences: 40038
+Barcode not in mapping file: 0
+Read too short after quality truncation: 295
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-G7_S175_L001_R1_001	39740
+
+Total number seqs written	39740
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-F6_S162_L001_R1_001/fastqjoin.join.fastq (md5: d7921104c11a9907ee41820129eb5097)
+Quality filter results
+Total number of input sequences: 15347
+Barcode not in mapping file: 0
+Read too short after quality truncation: 342
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 443.00
+2-F6_S162_L001_R1_001	15004
+
+Total number seqs written	15004
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-C11_S35_L001_R1_001/fastqjoin.join.fastq (md5: a886f499385041401ff56baf51159cc3)
+Quality filter results
+Total number of input sequences: 27712
+Barcode not in mapping file: 0
+Read too short after quality truncation: 310
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-C11_S35_L001_R1_001	27402
+
+Total number seqs written	27402
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-G3_S75_L001_R1_001/fastqjoin.join.fastq (md5: 3b9c483e20df322f207903ed14072d4d)
+Quality filter results
+Total number of input sequences: 22000
+Barcode not in mapping file: 0
+Read too short after quality truncation: 471
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 442.00
+1-G3_S75_L001_R1_001	21528
+
+Total number seqs written	21528
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-B4_S16_L001_R1_001/fastqjoin.join.fastq (md5: 688118beda26c0d0a8f5e456ea6e3982)
+Quality filter results
+Total number of input sequences: 16032
+Barcode not in mapping file: 0
+Read too short after quality truncation: 113
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 459.00
+1-B4_S16_L001_R1_001	15918
+
+Total number seqs written	15918
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-A12_S12_L001_R1_001/fastqjoin.join.fastq (md5: a4755a933ff72b9499e57408689be30c)
+Quality filter results
+Total number of input sequences: 1005
+Barcode not in mapping file: 0
+Read too short after quality truncation: 962
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-A12_S12_L001_R1_001	43
+
+Total number seqs written	43
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-H3_S183_L001_R1_001/fastqjoin.join.fastq (md5: 48ccd646928fe632e3f83503c9cdbbbe)
+Quality filter results
+Total number of input sequences: 16136
+Barcode not in mapping file: 0
+Read too short after quality truncation: 991
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 441.00
+2-H3_S183_L001_R1_001	15144
+
+Total number seqs written	15144
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/1-H4_S88_L001_R1_001/fastqjoin.join.fastq (md5: dadfffee01c96ffd64a9367219125847)
+Quality filter results
+Total number of input sequences: 30032
+Barcode not in mapping file: 0
+Read too short after quality truncation: 193
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+1-H4_S88_L001_R1_001	29836
+
+Total number seqs written	29836
+---
+
+Input file paths
+Sequence read filepath: /Users/nolson/Projects/mgtst_pipelines/qiime/joined_pairs/2-B3_S111_L001_R1_001/fastqjoin.join.fastq (md5: 0dd94248fe559c799125dea2af6aa513)
+Quality filter results
+Total number of input sequences: 27025
+Barcode not in mapping file: 0
+Read too short after quality truncation: 575
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 460.00
+2-B3_S111_L001_R1_001	26448
+
+Total number seqs written	26448
+---
+

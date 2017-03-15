@@ -1,0 +1,439 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.3
+Last updated: 2/23/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > chimera.uchime(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.fasta, count=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.count_table, dereplicate=T, processors=1)
+
+Using 1 processors.
+
+uchime by Robert C. Edgar
+http://drive5.com/uchime
+This code is donated to the public domain.
+
+Checking sequences from mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.fasta ...
+
+It took 6 secs to check 1093 sequences from group 1-A1.
+
+It took 6 secs to check 1037 sequences from group 1-A10.
+
+It took 3 secs to check 599 sequences from group 1-A11.
+
+It took 0 secs to check 35 sequences from group 1-A12.
+
+It took 5 secs to check 852 sequences from group 1-A2.
+
+It took 4 secs to check 810 sequences from group 1-A3.
+
+It took 4 secs to check 751 sequences from group 1-A4.
+
+It took 3 secs to check 607 sequences from group 1-A5.
+
+It took 0 secs to check 16 sequences from group 1-A6.
+
+It took 3 secs to check 788 sequences from group 1-A7.
+
+It took 3 secs to check 608 sequences from group 1-A8.
+
+It took 2 secs to check 610 sequences from group 1-A9.
+
+It took 9 secs to check 1169 sequences from group 1-B1.
+
+It took 6 secs to check 998 sequences from group 1-B10.
+
+It took 9 secs to check 929 sequences from group 1-B11.
+
+It took 8 secs to check 1162 sequences from group 1-B12.
+
+It took 5 secs to check 755 sequences from group 1-B2.
+
+It took 7 secs to check 1014 sequences from group 1-B3.
+
+It took 3 secs to check 671 sequences from group 1-B4.
+
+It took 6 secs to check 723 sequences from group 1-B5.
+
+It took 6 secs to check 806 sequences from group 1-B6.
+
+It took 5 secs to check 847 sequences from group 1-B7.
+
+It took 3 secs to check 666 sequences from group 1-B8.
+
+It took 7 secs to check 1070 sequences from group 1-B9.
+
+It took 10 secs to check 1389 sequences from group 1-C1.
+
+It took 6 secs to check 1103 sequences from group 1-C10.
+
+It took 10 secs to check 1047 sequences from group 1-C11.
+
+It took 12 secs to check 1417 sequences from group 1-C12.
+
+It took 4 secs to check 862 sequences from group 1-C2.
+
+It took 6 secs to check 907 sequences from group 1-C3.
+
+It took 6 secs to check 1105 sequences from group 1-C4.
+
+It took 8 secs to check 798 sequences from group 1-C5.
+
+It took 5 secs to check 900 sequences from group 1-C6.
+
+It took 4 secs to check 915 sequences from group 1-C7.
+
+It took 5 secs to check 856 sequences from group 1-C8.
+
+It took 7 secs to check 1022 sequences from group 1-C9.
+
+It took 8 secs to check 1297 sequences from group 1-D1.
+
+It took 6 secs to check 1152 sequences from group 1-D10.
+
+It took 7 secs to check 859 sequences from group 1-D11.
+
+It took 0 secs to check 23 sequences from group 1-D12.
+
+It took 5 secs to check 911 sequences from group 1-D2.
+
+It took 5 secs to check 947 sequences from group 1-D3.
+
+It took 6 secs to check 1010 sequences from group 1-D4.
+
+It took 4 secs to check 659 sequences from group 1-D5.
+
+It took 0 secs to check 19 sequences from group 1-D6.
+
+It took 3 secs to check 813 sequences from group 1-D7.
+
+It took 3 secs to check 658 sequences from group 1-D8.
+
+It took 5 secs to check 873 sequences from group 1-D9.
+
+It took 5 secs to check 1014 sequences from group 1-E1.
+
+It took 6 secs to check 1100 sequences from group 1-E10.
+
+It took 5 secs to check 754 sequences from group 1-E11.
+
+It took 12 secs to check 1334 sequences from group 1-E12.
+
+It took 4 secs to check 769 sequences from group 1-E2.
+
+It took 3 secs to check 782 sequences from group 1-E3.
+
+It took 27 secs to check 2387 sequences from group 1-E4.
+
+It took 9 secs to check 914 sequences from group 1-E5.
+
+It took 6 secs to check 1055 sequences from group 1-E6.
+
+It took 4 secs to check 787 sequences from group 1-E7.
+
+It took 3 secs to check 664 sequences from group 1-E8.
+
+It took 5 secs to check 847 sequences from group 1-E9.
+
+It took 7 secs to check 1343 sequences from group 1-F1.
+
+It took 6 secs to check 1133 sequences from group 1-F10.
+
+It took 5 secs to check 786 sequences from group 1-F11.
+
+It took 6 secs to check 916 sequences from group 1-F12.
+
+It took 5 secs to check 959 sequences from group 1-F2.
+
+It took 5 secs to check 914 sequences from group 1-F3.
+
+It took 6 secs to check 1056 sequences from group 1-F4.
+
+It took 4 secs to check 674 sequences from group 1-F5.
+
+It took 4 secs to check 763 sequences from group 1-F6.
+
+It took 4 secs to check 845 sequences from group 1-F7.
+
+It took 4 secs to check 793 sequences from group 1-F8.
+
+It took 0 secs to check 151 sequences from group 1-F9.
+
+It took 7 secs to check 1268 sequences from group 1-G1.
+
+It took 5 secs to check 972 sequences from group 1-G10.
+
+It took 5 secs to check 814 sequences from group 1-G11.
+
+It took 12 secs to check 1049 sequences from group 1-G12.
+
+It took 6 secs to check 969 sequences from group 1-G2.
+
+It took 4 secs to check 831 sequences from group 1-G3.
+
+It took 5 secs to check 920 sequences from group 1-G4.
+
+It took 3 secs to check 656 sequences from group 1-G5.
+
+It took 9 secs to check 871 sequences from group 1-G6.
+
+It took 4 secs to check 863 sequences from group 1-G7.
+
+It took 3 secs to check 707 sequences from group 1-G8.
+
+It took 4 secs to check 789 sequences from group 1-G9.
+
+It took 6 secs to check 1184 sequences from group 1-H1.
+
+It took 5 secs to check 923 sequences from group 1-H10.
+
+It took 4 secs to check 727 sequences from group 1-H11.
+
+It took 0 secs to check 109 sequences from group 1-H12.
+
+It took 6 secs to check 1075 sequences from group 1-H2.
+
+It took 6 secs to check 978 sequences from group 1-H3.
+
+It took 6 secs to check 1024 sequences from group 1-H4.
+
+It took 3 secs to check 692 sequences from group 1-H5.
+
+It took 0 secs to check 14 sequences from group 1-H6.
+
+It took 5 secs to check 954 sequences from group 1-H7.
+
+It took 4 secs to check 735 sequences from group 1-H8.
+
+It took 3 secs to check 715 sequences from group 1-H9.
+
+It took 6 secs to check 1139 sequences from group 2-A1.
+
+It took 7 secs to check 1245 sequences from group 2-A10.
+
+It took 4 secs to check 720 sequences from group 2-A11.
+
+It took 0 secs to check 15 sequences from group 2-A12.
+
+It took 3 secs to check 607 sequences from group 2-A2.
+
+It took 4 secs to check 867 sequences from group 2-A3.
+
+It took 6 secs to check 1080 sequences from group 2-A4.
+
+It took 2 secs to check 576 sequences from group 2-A5.
+
+It took 1 secs to check 56 sequences from group 2-A6.
+
+It took 5 secs to check 1022 sequences from group 2-A7.
+
+It took 4 secs to check 850 sequences from group 2-A8.
+
+It took 3 secs to check 767 sequences from group 2-A9.
+
+It took 7 secs to check 1163 sequences from group 2-B1.
+
+It took 6 secs to check 1090 sequences from group 2-B10.
+
+It took 11 secs to check 1120 sequences from group 2-B11.
+
+It took 8 secs to check 1083 sequences from group 2-B12.
+
+It took 6 secs to check 988 sequences from group 2-B2.
+
+It took 9 secs to check 1177 sequences from group 2-B3.
+
+It took 6 secs to check 1043 sequences from group 2-B4.
+
+It took 6 secs to check 763 sequences from group 2-B5.
+
+It took 7 secs to check 950 sequences from group 2-B6.
+
+It took 6 secs to check 1010 sequences from group 2-B7.
+
+It took 8 secs to check 1183 sequences from group 2-B8.
+
+It took 9 secs to check 1057 sequences from group 2-B9.
+
+It took 6 secs to check 1173 sequences from group 2-C1.
+
+It took 7 secs to check 1202 sequences from group 2-C10.
+
+It took 9 secs to check 949 sequences from group 2-C11.
+
+It took 8 secs to check 1193 sequences from group 2-C12.
+
+It took 4 secs to check 852 sequences from group 2-C2.
+
+It took 10 secs to check 1214 sequences from group 2-C3.
+
+It took 6 secs to check 1080 sequences from group 2-C4.
+
+It took 6 secs to check 758 sequences from group 2-C5.
+
+It took 8 secs to check 1059 sequences from group 2-C6.
+
+It took 7 secs to check 1152 sequences from group 2-C7.
+
+It took 6 secs to check 954 sequences from group 2-C8.
+
+It took 7 secs to check 1066 sequences from group 2-C9.
+
+It took 5 secs to check 993 sequences from group 2-D1.
+
+It took 5 secs to check 990 sequences from group 2-D10.
+
+It took 6 secs to check 793 sequences from group 2-D11.
+
+It took 0 secs to check 14 sequences from group 2-D12.
+
+It took 2 secs to check 631 sequences from group 2-D2.
+
+It took 6 secs to check 956 sequences from group 2-D3.
+
+It took 3 secs to check 782 sequences from group 2-D4.
+
+It took 4 secs to check 598 sequences from group 2-D5.
+
+It took 0 secs to check 31 sequences from group 2-D6.
+
+It took 5 secs to check 929 sequences from group 2-D7.
+
+It took 4 secs to check 867 sequences from group 2-D8.
+
+It took 5 secs to check 841 sequences from group 2-D9.
+
+It took 7 secs to check 1220 sequences from group 2-E1.
+
+It took 7 secs to check 1241 sequences from group 2-E10.
+
+It took 7 secs to check 904 sequences from group 2-E11.
+
+It took 17 secs to check 1644 sequences from group 2-E12.
+
+It took 3 secs to check 670 sequences from group 2-E2.
+
+It took 5 secs to check 863 sequences from group 2-E3.
+
+It took 7 secs to check 1195 sequences from group 2-E4.
+
+It took 5 secs to check 738 sequences from group 2-E5.
+
+It took 8 secs to check 1141 sequences from group 2-E6.
+
+It took 5 secs to check 1022 sequences from group 2-E7.
+
+It took 6 secs to check 1021 sequences from group 2-E8.
+
+It took 6 secs to check 974 sequences from group 2-E9.
+
+It took 6 secs to check 1139 sequences from group 2-F1.
+
+It took 8 secs to check 1277 sequences from group 2-F10.
+
+It took 5 secs to check 846 sequences from group 2-F11.
+
+It took 6 secs to check 880 sequences from group 2-F12.
+
+It took 3 secs to check 701 sequences from group 2-F2.
+
+It took 6 secs to check 1009 sequences from group 2-F3.
+
+It took 8 secs to check 1352 sequences from group 2-F4.
+
+It took 5 secs to check 761 sequences from group 2-F5.
+
+It took 4 secs to check 763 sequences from group 2-F6.
+
+It took 4 secs to check 950 sequences from group 2-F7.
+
+It took 6 secs to check 1011 sequences from group 2-F8.
+
+It took 5 secs to check 928 sequences from group 2-F9.
+
+It took 7 secs to check 1275 sequences from group 2-G1.
+
+It took 10 secs to check 1416 sequences from group 2-G10.
+
+It took 4 secs to check 841 sequences from group 2-G11.
+
+It took 11 secs to check 1106 sequences from group 2-G12.
+
+It took 3 secs to check 676 sequences from group 2-G2.
+
+It took 5 secs to check 914 sequences from group 2-G3.
+
+It took 7 secs to check 1244 sequences from group 2-G4.
+
+It took 4 secs to check 717 sequences from group 2-G5.
+
+It took 10 secs to check 1017 sequences from group 2-G6.
+
+It took 5 secs to check 1019 sequences from group 2-G7.
+
+It took 6 secs to check 1001 sequences from group 2-G8.
+
+It took 4 secs to check 872 sequences from group 2-G9.
+
+It took 4 secs to check 876 sequences from group 2-H1.
+
+It took 5 secs to check 975 sequences from group 2-H10.
+
+It took 3 secs to check 625 sequences from group 2-H11.
+
+It took 1 secs to check 31 sequences from group 2-H12.
+
+It took 2 secs to check 627 sequences from group 2-H2.
+
+It took 4 secs to check 752 sequences from group 2-H3.
+
+It took 6 secs to check 1042 sequences from group 2-H4.
+
+It took 3 secs to check 656 sequences from group 2-H5.
+
+It took 0 secs to check 70 sequences from group 2-H6.
+
+It took 5 secs to check 935 sequences from group 2-H7.
+
+It took 4 secs to check 779 sequences from group 2-H8.
+
+It took 3 secs to check 695 sequences from group 2-H9.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.chimeras
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.accnos
+
+
+mothur > remove.seqs(fasta=current, accnos=current)
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.accnos as input file for the accnos parameter.
+Using mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.fasta as input file for the fasta parameter.
+Removed 36732 sequences from your fasta file.
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta
+
+
+mothur > quit()

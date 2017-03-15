@@ -1,0 +1,81 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.3
+Last updated: 2/23/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > align.seqs(fasta=reference/trainset10_082014.pds.fasta, reference=reference/silva.nr_v119.V34.align, processors=4)
+
+Using 4 processors.
+
+Reading in the reference/silva.nr_v119.V34.align template sequences...	DONE.
+It took 44 to read  121588 sequences.
+Aligning sequences from reference/trainset10_082014.pds.fasta ...
+[WARNING]: Some of your sequences generated alignments that eliminated too many bases, a list is provided in reference/trainset10_082014.pds.flip.accnos. If you set the flip parameter to true mothur will try aligning the reverse compliment as well.
+It took 49 secs to align 10773 sequences.
+
+
+Output File Names: 
+reference/trainset10_082014.pds.align
+reference/trainset10_082014.pds.align.report
+reference/trainset10_082014.pds.flip.accnos
+
+
+mothur > screen.seqs(fasta=current, taxonomy=reference/trainset10_082014.pds.tax, start=2, end=17016)
+Using reference/trainset10_082014.pds.align as input file for the fasta parameter.
+
+Using 4 processors.
+
+Output File Names: 
+reference/trainset10_082014.pds.good.align
+reference/trainset10_082014.pds.bad.accnos
+reference/trainset10_082014.pds.good.tax
+
+
+It took 2 secs to screen 10773 sequences.
+
+mothur > degap.seqs(fasta=current)
+Using reference/trainset10_082014.pds.good.align as input file for the fasta parameter.
+
+Using 4 processors.
+Degapping sequences from reference/trainset10_082014.pds.good.align ...
+It took 1 secs to degap 10530 sequences.
+
+
+Output File Names: 
+reference/trainset10_082014.pds.good.ng.fasta
+
+
+mothur > quit()
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected 1 [WARNING] messages, please review.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,0 +1,53 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.3
+Last updated: 2/23/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > classify.seqs(fasta=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table, reference=reference/trainset.10_082014.V34.fasta, taxonomy=reference/trainset.10_082014.V34.tax, cutoff=80, processors=8)
+
+Using 8 processors.
+Generating search database...    DONE.
+It took 3 seconds generate search database. 
+
+Reading in the reference/trainset.10_082014.V34.tax taxonomy...	DONE.
+Calculating template taxonomy tree...     DONE.
+Calculating template probabilities...     DONE.
+It took 8 seconds get probabilities. 
+Classifying sequences from mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta ...
+
+It took 198 secs to classify 70716 sequences.
+
+
+It took 5 secs to create the summary file for 70716 sequences.
+
+
+Output File Names: 
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.V34.wang.taxonomy
+mothur//mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.V34.wang.tax.summary
+
+
+mothur > quit()
