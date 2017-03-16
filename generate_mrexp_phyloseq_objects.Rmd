@@ -24,7 +24,7 @@ Generating MRexperiment and phyloseq objects for the three pipelines.
 meta_df <- sampleSheet %>% 
   filter(barcode_lab == "JHU", seq_lab == "JHU") %>% 
   select(biosample_id, titration, pcr_16S_plate, pos) %>% 
-  unite(id, pcr_16S_plate, pos, sep = "-",remove = TRUE)  %>% 
+  unite(id, pcr_16S_plate, pos, sep = "-",remove = FALSE)  %>% 
   as.data.frame()
 
 rownames(meta_df) <- meta_df$id
@@ -73,12 +73,15 @@ saveRDS(mothur_mrexp, "mothur/mothur_mrexp.rds")
 
 #### QIIME Phyloseq Object 
 ```{r}
-qiime_dir <- "qiime/otus_uc_fast_no_chimera/"
+# qiime_dir <- "qiime/otus_uc_fast_no_chimera/"
+qiime_dir <- "qiime/otus_uc_fast/"
 biom_file <- file.path(qiime_dir, "otu_table_mc2_w_tax_no_pynast_failures.biom")
+seq_file <- file.path(qiime_dir, "rep_set.fna")
+tree_file <- file.path(qiime_dir, "rep_set.tre")
 
 qiime_ps <- phyloseq::import_biom(BIOMfilename = biom_file)
 
-sample_names(qiime_ps) <- sample_names(qiime_ps) %>% str_replace("centroid=","")
+#sample_names(qiime_ps) <- sample_names(qiime_ps) %>% str_replace("centroid=","")
 
 ## Adding sample data
 phyloseq::sample_data(qiime_ps) <- meta_df
@@ -87,7 +90,8 @@ phyloseq::sample_data(qiime_ps) <- meta_df
 ```{r}
 qiime_ps
 ```
-
+<!--
+Only when chimera filtering is included
 __NOTE__ 
 The three samples removed by the QIIME pipeline are no template controls. 
 
@@ -95,6 +99,7 @@ The three samples removed by the QIIME pipeline are no template controls.
 meta_df %>% rownames_to_column() %>% 
   filter(!(rowname %in% sample_names(qiime_ps)))
 ```
+--> 
 
 ### QIIME MRexperiment Object
 ```{r}
@@ -105,7 +110,7 @@ qiime_mrexp <- phyloseq_to_metagenomeSeq(qiime_ps)
 qiime_mrexp
 ```
 
-### Save Mothur Objects
+### Save QIIME Objects
 ```{r}
 saveRDS(qiime_ps, "qiime/qiime_ps.rds")
 saveRDS(qiime_mrexp, "qiime/qiime_mrexp.rds")
