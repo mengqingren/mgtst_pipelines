@@ -111,7 +111,7 @@ taxa_file <-"dada2/taxa.rds"
 if(!(file.exists(taxa_file))){
   taxa <- assignTaxonomy(seqtab_nochim, 
                          "reference/silva_nr_v123_train_set.fa.gz")
-  colnames(taxa) <- c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus")
+  colnames(taxa) <- paste0("Rank",1:6)
   saveRDS(taxa, taxa_file)
 }else{
   seqtab_nochim <- readRDS(taxa_file)
