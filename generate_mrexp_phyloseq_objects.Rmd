@@ -23,7 +23,7 @@ Generating MRexperiment and phyloseq objects for the three pipelines.
 ```{r}
 meta_df <- sampleSheet %>% 
   filter(barcode_lab == "JHU", seq_lab == "JHU") %>% 
-  select(biosample_id, titration, pcr_16S_plate, pos) %>% 
+  select(biosample_id, titration, t_fctr, pcr_16S_plate, pos) %>% 
   unite(id, pcr_16S_plate, pos, sep = "-",remove = FALSE)  %>% 
   as.data.frame()
 
