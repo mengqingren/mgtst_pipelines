@@ -54,8 +54,8 @@ e4c37a1e0ff27131876f207ddf946e06  /Users/nolson/Projects/mgtst_pipelines/data/1-
 5cbfeb1d3029476755f7e40e605cb6ae  /Users/nolson/Projects/mgtst_pipelines/data/1-C12_S36_L001_R1_001.fastq.gz
 62f96789f68f73dafdf606abe3d62ebc  /Users/nolson/Projects/mgtst_pipelines/data/1-C12_S36_L001_R2_001.fastq.gz
 ea6fd7430e15efb6bfd2bcb397abf0dc  /Users/nolson/Projects/mgtst_pipelines/data/1-C1_S25_L001_R1_001.fastq.gz
-394260ba48424f826e3150eb5dddb0c3  /Users/nolson/Projects/mgtst_pipelines/data/1-C1_S25_L001_R2_001.fastq.gz
 1e383d5f1f1d759f9f3b247695b32f87  /Users/nolson/Projects/mgtst_pipelines/data/1-C2_S26_L001_R1_001.fastq.gz
+394260ba48424f826e3150eb5dddb0c3  /Users/nolson/Projects/mgtst_pipelines/data/1-C1_S25_L001_R2_001.fastq.gz
 5ca75301a16e61e10f3696bf7471b520  /Users/nolson/Projects/mgtst_pipelines/data/1-C2_S26_L001_R2_001.fastq.gz
 ca107ded9f5c73e64590090307f187c7  /Users/nolson/Projects/mgtst_pipelines/data/1-C3_S27_L001_R1_001.fastq.gz
 35a761fe748c3bbbaf713753b9f5cb38  /Users/nolson/Projects/mgtst_pipelines/data/1-C3_S27_L001_R2_001.fastq.gz
@@ -74,12 +74,12 @@ edad94799c50cf67899dfe2b693ca58d  /Users/nolson/Projects/mgtst_pipelines/data/1-
 ec0d4ddccef2827d8e4e4e06b8188bc1  /Users/nolson/Projects/mgtst_pipelines/data/1-D10_S46_L001_R1_001.fastq.gz
 19a3a802122fe92922b3035386e1b5ff  /Users/nolson/Projects/mgtst_pipelines/data/1-D10_S46_L001_R2_001.fastq.gz
 27013d4cddfa084d57b6cf1644c0b38d  /Users/nolson/Projects/mgtst_pipelines/data/1-D11_S47_L001_R1_001.fastq.gz
-3532e6b3b3595d7ec64aebec698ebb19  /Users/nolson/Projects/mgtst_pipelines/data/1-D11_S47_L001_R2_001.fastq.gz
 ff8656af16f02d20ba83bf720fb47a91  /Users/nolson/Projects/mgtst_pipelines/data/1-D12_S48_L001_R1_001.fastq.gz
+3532e6b3b3595d7ec64aebec698ebb19  /Users/nolson/Projects/mgtst_pipelines/data/1-D11_S47_L001_R2_001.fastq.gz
 470a21d67edbcf34eefab872a86b25ed  /Users/nolson/Projects/mgtst_pipelines/data/1-D12_S48_L001_R2_001.fastq.gz
 e4c2b20afd43b4e89d48df285116e90e  /Users/nolson/Projects/mgtst_pipelines/data/1-D1_S37_L001_R1_001.fastq.gz
-c0f13da8608cc896159ff0dca5e5f2d7  /Users/nolson/Projects/mgtst_pipelines/data/1-D1_S37_L001_R2_001.fastq.gz
 922293036eaac3aaba52d12386555b7a  /Users/nolson/Projects/mgtst_pipelines/data/1-D2_S38_L001_R1_001.fastq.gz
+c0f13da8608cc896159ff0dca5e5f2d7  /Users/nolson/Projects/mgtst_pipelines/data/1-D1_S37_L001_R2_001.fastq.gz
 0124cc119d1f7398928765bea50454d1  /Users/nolson/Projects/mgtst_pipelines/data/1-D2_S38_L001_R2_001.fastq.gz
 c98be66bc46f6f32cdc15eea282ccc2d  /Users/nolson/Projects/mgtst_pipelines/data/1-D3_S39_L001_R1_001.fastq.gz
 0783576ecaf69cda8a8c6693d37be202  /Users/nolson/Projects/mgtst_pipelines/data/1-D3_S39_L001_R2_001.fastq.gz
@@ -258,8 +258,8 @@ f0114474f33027715eb474b298b40106  /Users/nolson/Projects/mgtst_pipelines/data/2-
 dee69d7950c5c0503fb9adcd3c47e04c  /Users/nolson/Projects/mgtst_pipelines/data/2-C6_S126_L001_R1_001.fastq.gz
 192143f7c580eab8229e7b75a8f7fb61  /Users/nolson/Projects/mgtst_pipelines/data/2-C6_S126_L001_R2_001.fastq.gz
 5c3a584223563ee88c86f3394702f768  /Users/nolson/Projects/mgtst_pipelines/data/2-C7_S127_L001_R1_001.fastq.gz
-23584563e9a677a9d8d29879d1bda6e0  /Users/nolson/Projects/mgtst_pipelines/data/2-C8_S128_L001_R1_001.fastq.gz
 eca036669501995059df09d8f59372d1  /Users/nolson/Projects/mgtst_pipelines/data/2-C7_S127_L001_R2_001.fastq.gz
+23584563e9a677a9d8d29879d1bda6e0  /Users/nolson/Projects/mgtst_pipelines/data/2-C8_S128_L001_R1_001.fastq.gz
 3bcb75b58795216b03421052b4757073  /Users/nolson/Projects/mgtst_pipelines/data/2-C8_S128_L001_R2_001.fastq.gz
 cdda74be04cf53f8cfa1f9165ff4cf3a  /Users/nolson/Projects/mgtst_pipelines/data/2-C9_S129_L001_R1_001.fastq.gz
 c9be082683741075e94843ce8feed17e  /Users/nolson/Projects/mgtst_pipelines/data/2-C9_S129_L001_R2_001.fastq.gz
@@ -267,8 +267,8 @@ c9be082683741075e94843ce8feed17e  /Users/nolson/Projects/mgtst_pipelines/data/2-
 b361df68f15f09769279b78f6af131ed  /Users/nolson/Projects/mgtst_pipelines/data/2-D10_S142_L001_R2_001.fastq.gz
 0a707951c13223f1698d2796be7ae8e8  /Users/nolson/Projects/mgtst_pipelines/data/2-D11_S143_L001_R1_001.fastq.gz
 005913a96ced28d628ace885cc547666  /Users/nolson/Projects/mgtst_pipelines/data/2-D12_S144_L001_R1_001.fastq.gz
-25819f1e20c13691a1b505fc4f484e06  /Users/nolson/Projects/mgtst_pipelines/data/2-D12_S144_L001_R2_001.fastq.gz
 aaf80b3b649a91d63711f5c60e82952d  /Users/nolson/Projects/mgtst_pipelines/data/2-D11_S143_L001_R2_001.fastq.gz
+25819f1e20c13691a1b505fc4f484e06  /Users/nolson/Projects/mgtst_pipelines/data/2-D12_S144_L001_R2_001.fastq.gz
 93d5728f5f2c23018aab3063cce6d72d  /Users/nolson/Projects/mgtst_pipelines/data/2-D1_S133_L001_R1_001.fastq.gz
 2a7121f9b9396370ff2cc11aa0e20050  /Users/nolson/Projects/mgtst_pipelines/data/2-D1_S133_L001_R2_001.fastq.gz
 ca09e90e4d3575daa154b4ea3aa277e8  /Users/nolson/Projects/mgtst_pipelines/data/2-D2_S134_L001_R1_001.fastq.gz
@@ -278,8 +278,8 @@ d13d08f0b77dabde44156060a3eb85ff  /Users/nolson/Projects/mgtst_pipelines/data/2-
 b95393b9937576dd9b14372d29f975cd  /Users/nolson/Projects/mgtst_pipelines/data/2-D4_S136_L001_R1_001.fastq.gz
 9f50059ca0aaf43b542ec951df2a8879  /Users/nolson/Projects/mgtst_pipelines/data/2-D4_S136_L001_R2_001.fastq.gz
 7255e2ad33617f4549e143ac652a5c7c  /Users/nolson/Projects/mgtst_pipelines/data/2-D5_S137_L001_R1_001.fastq.gz
-48e1689a2ff39f646289ed5c53a0708c  /Users/nolson/Projects/mgtst_pipelines/data/2-D6_S138_L001_R1_001.fastq.gz
 33315a34c23f7227fd99ec6293ff7734  /Users/nolson/Projects/mgtst_pipelines/data/2-D5_S137_L001_R2_001.fastq.gz
+48e1689a2ff39f646289ed5c53a0708c  /Users/nolson/Projects/mgtst_pipelines/data/2-D6_S138_L001_R1_001.fastq.gz
 450f20d035fe3b807020413b291ff99d  /Users/nolson/Projects/mgtst_pipelines/data/2-D6_S138_L001_R2_001.fastq.gz
 0f787655ee770b6811ec6184b48bbe7e  /Users/nolson/Projects/mgtst_pipelines/data/2-D7_S139_L001_R1_001.fastq.gz
 ca873075d321d6c2de63f0ca334c00ae  /Users/nolson/Projects/mgtst_pipelines/data/2-D7_S139_L001_R2_001.fastq.gz
@@ -342,8 +342,8 @@ d8a463c4949caff648577337628b66c7  /Users/nolson/Projects/mgtst_pipelines/data/2-
 afd0b95aa2b67092ff5ec100c729d81b  /Users/nolson/Projects/mgtst_pipelines/data/2-G12_S180_L001_R1_001.fastq.gz
 925d07674ba9a1c96d41bf5aef649fe3  /Users/nolson/Projects/mgtst_pipelines/data/2-G12_S180_L001_R2_001.fastq.gz
 05dd2eea3406415bf7d16ce8626e9906  /Users/nolson/Projects/mgtst_pipelines/data/2-G1_S169_L001_R1_001.fastq.gz
-48302b0532fc946ba6b1c680ddb99d5c  /Users/nolson/Projects/mgtst_pipelines/data/2-G2_S170_L001_R1_001.fastq.gz
 01c6644775f950e20d66bd4409da64dc  /Users/nolson/Projects/mgtst_pipelines/data/2-G1_S169_L001_R2_001.fastq.gz
+48302b0532fc946ba6b1c680ddb99d5c  /Users/nolson/Projects/mgtst_pipelines/data/2-G2_S170_L001_R1_001.fastq.gz
 fa486b0c5c1d0ef50806c099134aa8fd  /Users/nolson/Projects/mgtst_pipelines/data/2-G2_S170_L001_R2_001.fastq.gz
 1d9059739dbfc1758f9754f155266ae7  /Users/nolson/Projects/mgtst_pipelines/data/2-G3_S171_L001_R1_001.fastq.gz
 86fec0a161869ea5f7ec35e0689e709a  /Users/nolson/Projects/mgtst_pipelines/data/2-G3_S171_L001_R2_001.fastq.gz

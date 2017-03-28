@@ -27,6 +27,13 @@ meta_df <- sampleSheet %>%
   unite(id, pcr_16S_plate, pos, sep = "-",remove = FALSE)  %>% 
   as.data.frame()
 
+## PCR replicate information
+half1 <- paste0(rep(c("A","B","C","D","E","F","G","H"), each = 6), 1:6)
+meta_df <- meta_df %>% 
+      mutate(pcr_half = if_else(pos %in% half1, "1","2"),
+             pcr_rep = paste0(pcr_16S_plate,":",pcr_half))
+
+
 rownames(meta_df) <- meta_df$id
 ```
 
