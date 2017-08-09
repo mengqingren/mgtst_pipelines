@@ -31,7 +31,7 @@ TRAIN_ROOT=$(REF)/trainset10_082014.pds
 ## Trainset Amplicon Target Region
 TRAIN_AMP_START=2
 TRAIN_AMP_END=17016
-TRAIN_AMP_ROOT=$(REF)/trainset.10_082014.$(REGION)
+TRAIN_AMP_ROOT=$(REF)/trainset10_082014.$(REGION)
 TRAIN_SEQ=$(TRAIN_AMP_ROOT).fasta
 TRAIN_TAX=$(TRAIN_AMP_ROOT).tax
 
@@ -165,7 +165,7 @@ $(CHIMERA) : $(CLUSTER)
 	$(MOTHUR) "#chimera.uchime(fasta=$(CLUSTER), count=$(CLUSTER_COUNT), dereplicate=T, $(CLUSTER_PROC));\
         remove.seqs(fasta=current, accnos=current)"
 
-$(CLASSIFY) : $(CHIMERA)
+$(CLASSIFY) : $(CHIMERA) $(TRAIN_SEQ)
 	$(MOTHUR) "#classify.seqs(fasta=$(CHIMERA), count=$(CHIMERA_COUNT), reference=$(TRAIN_SEQ), taxonomy=$(TRAIN_TAX), cutoff=80, $(PROC))"
 
 $(CLUSTER_TAX): $(CHIMERA) $(CLASSIFY)
