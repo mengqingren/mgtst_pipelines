@@ -20,8 +20,8 @@ DB_GET=$(CODE)/get_silva.sh
 DB_ROOT=$(REF)/silva.nr_v119
 
 ## Reference Amplicon Target Region
-DB_AMP_START=6428
-DB_AMP_END=23444
+DB_AMP_START=6388
+DB_AMP_END=25316
 DB_AMP_ROOT=$(DB_ROOT).$(REGION)
 
 ## Trainset Database
