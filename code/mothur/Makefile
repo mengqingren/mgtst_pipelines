@@ -20,8 +20,8 @@ DB_GET=$(CODE)/get_silva.sh
 DB_ROOT=$(REF)/silva.nr_v119
 
 ## Reference Amplicon Target Region
-DB_AMP_START=6428
-DB_AMP_END=23444
+DB_AMP_START=6388
+DB_AMP_END=25316
 DB_AMP_ROOT=$(DB_ROOT).$(REGION)
 
 ## Trainset Database
@@ -165,7 +165,7 @@ $(CHIMERA) : $(CLUSTER)
 	$(MOTHUR) "#chimera.uchime(fasta=$(CLUSTER), count=$(CLUSTER_COUNT), dereplicate=T, $(CLUSTER_PROC));\
         remove.seqs(fasta=current, accnos=current)"
 
-$(CLASSIFY) : $(CHIMERA)
+$(CLASSIFY) : $(CHIMERA) $(TRAIN_SEQ)
 	$(MOTHUR) "#classify.seqs(fasta=$(CHIMERA), count=$(CHIMERA_COUNT), reference=$(TRAIN_SEQ), taxonomy=$(TRAIN_TAX), cutoff=80, $(PROC))"
 
 $(CLUSTER_TAX): $(CHIMERA) $(CLASSIFY)
