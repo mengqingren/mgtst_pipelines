@@ -1,3 +1,4 @@
+## Load package and setup env
 library(dada2); packageVersion("dada2")
 library(ShortRead); packageVersion("ShortRead")
 library(ggplot2); packageVersion("ggplot2")
@@ -111,13 +112,17 @@ if (!file.exists(seqtab_nochim_file)) {
 
 ## Assign Taxonomy -------------------------------------------------------------
 taxa_file <- "dada2/taxa.rds"
+ref_url <- "http://dx.doi.org/10.5281/zenodo.158958"
+ref_file <- "reference/silva_nr_v123_train_set.fa.gz"
 if (!file.exists(taxa_file)) {
-  taxa <- assignTaxonomy(seqtab_nochim, 
-                         "reference/silva_nr_v123_train_set.fa.gz")
+    ## Download reference db if not present
+   if (!file.exists(ref_file)) download.file(ref_url, ref_file)
+     
+  taxa <- assignTaxonomy(seqtab_nochim, ref_file)
   colnames(taxa) <- paste0("Rank",1:6)
   saveRDS(taxa, taxa_file)
 }else{
-  seqtab_nochim <- readRDS(taxa_file)
+  taxa <- readRDS(taxa_file)
 }
 
 ## Representative Sequences ----------------------------------------------------
@@ -128,11 +133,12 @@ if (!file.exists(seq_file)) {
     names(sv_seqs) <- paste0("SV",1:length(sv_seqs))
     
     ## Write sequences to file
-    DNAStringSet(sv_seqs) %>% writeXStringSet()
+    sv_seqs <- DNAStringSet(sv_seqs)
+    writeXStringSet(sv_seqs_dna, seq_file)
+    
 } else {
-    sv_seqs <- readRDS(seq_file)
+    sv_seqs <- readDNAStringSet(seq_file)
 }
-
 
 ## Phylogenetic Tree -----------------------------------------------------------
 ##
@@ -156,8 +162,6 @@ if (!file.exists(tree_file)) {
     dm <- dist.ml(phang.align)
     treeNJ <- NJ(dm) # Note, tip order != sequence order
     fit = pml(treeNJ, data = phang.align)
-    
-    ## negative edges length changed to 0!
     fitGTR <- update(fit, k = 4, inv = 0.2)
     fitGTR <- optim.pml(fitGTR, model = "GTR", optInv = TRUE, optGamma = TRUE,
                         rearrangement = "stochastic", 
