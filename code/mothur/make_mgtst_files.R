@@ -11,7 +11,8 @@ fnRs <- fastqs[grepl("_R2", fastqs)]
 
 ## Generate DF and extract ids
 grp_df <- data_frame(read1 = fnFs, read2 = fnRs) %>%
-    mutate(id = basename(fnFs), id = str_replace(id, "_.*",""))
+    mutate(id = basename(fnFs), id = str_replace(id, "_.*","")) %>% 
+    mutate(id = str_replace(id, "-","_"))
 
 grp_df %>% select(id, read1, read2) %>% 
       write_tsv("mothur/mgtst.files",col_names = FALSE)

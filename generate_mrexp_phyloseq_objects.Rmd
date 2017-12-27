@@ -9,27 +9,29 @@ output:
 ---
 
 ```{r setup, warning=FALSE, message=FALSE, echo = FALSE}
-#knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE) 
+#knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(ProjectTemplate)
 cwd <- getwd()
 setwd("../mgtst_pub")
 load.project()
 setwd(cwd)
+library(phyloseq)
+library(Biostrings)
 ```
 
-Generating MRexperiment and phyloseq objects for the three pipelines. 
+Generating MRexperiment and phyloseq objects for the three pipelines.
 
 ## Metadata
 ```{r}
-meta_df <- sampleSheet %>% 
-  filter(barcode_lab == "JHU", seq_lab == "JHU") %>% 
-  select(biosample_id, titration, t_fctr, pcr_16S_plate, pos) %>% 
-  unite(id, pcr_16S_plate, pos, sep = "-",remove = FALSE)  %>% 
+meta_df <- sampleSheet %>%
+  filter(barcode_lab == "JHU", seq_lab == "JHU") %>%
+  select(biosample_id, titration, t_fctr, pcr_16S_plate, pos) %>%
+  unite(id, pcr_16S_plate, pos, sep = "-",remove = FALSE)  %>%
   as.data.frame()
 
 ## PCR replicate information
 half1 <- paste0(rep(c("A","B","C","D","E","F","G","H"), each = 6), 1:6)
-meta_df <- meta_df %>% 
+meta_df <- meta_df %>%
       mutate(pcr_half = if_else(pos %in% half1, "1","2"),
              pcr_rep = paste0(pcr_16S_plate,":",pcr_half))
 
@@ -41,7 +43,79 @@ rownames(meta_df) <- meta_df$id
 glimpse(meta_df)
 ```
 
-## Mothur 
+## Unclustered
+Reads merged and filtered using Mothur.
+Mothur commands used to generate taxonomy file
+* `classify.seqs(fasta=mothur/mgtst.trim.contigs.good.unique.good.filter.unique.fasta, count=mothur.mgtst.trim.contigs.good.unique.good.filter.count_table, reference=reference/trainset.10_082014.V34.fasta, taxonomy=reference/trainset.10_082014.V34.tax, cutoff=80, processors=8)`  
+
+
+degap.seqs(fasta=mgtst.trim.contigs.good.unique.good.align)
+classify.seqs(fasta=mothur/mgtst.trim.contigs.good.unique.good.ng.fasta, count=mothur/mgtst.trim.contigs.good.good.count_table, reference=reference/trainset.10_082014.V34.fasta, axonomy=reference/trainset.10_082014.V34.tax, cutoff=80, processors=8)
+
+
+```{r}
+## Loading counts table
+### Top 40k most abundant features, approximately the same number as mothur
+count_tbl <- read_tsv("mothur/mgtst.trim.contigs.good.good.count_table") %>%
+      top_n(n = 40000, wt = total)
+rep_seq_ids <- count_tbl$Representative_Sequence
+count_tbl$total %>% summary()
+## Excluding features with a total count less than 14
+
+## Converting to matrix
+count_mat <- count_tbl %>%
+      select(-Representative_Sequence, -total) %>%
+      as.matrix()
+otu_tbl <- phyloseq::otu_table(count_mat, taxa_are_rows = TRUE)
+
+## Taxa table
+#### Data frame to ensure consistent
+feat_id_tbl <- data_frame(feature_id = rownames(otu_tbl),
+                          seq_id = rep_seq_ids)
+
+##### Code to parse mothur taxonomy from phyloseq import_mothur_constaxonomy https://github.com/joey711/phyloseq/blob/master/R/IO-methods.R
+rawtab <- read_tsv("mothur/mgtst.trim.contigs.good.unique.ng.good.V34.wang.taxonomy",
+                   col_names = c("seq_id","Taxonomy")) %>%
+      right_join(feat_id_tbl)   
+### These steps are really slow
+rawtab <- rawtab %>%
+      mutate(Taxonomy = gsub("\\([[:digit:]]+\\)", "", Taxonomy),
+             Taxonomy = gsub(";$", "", Taxonomy))
+
+taxlist = strsplit(rawtab$Taxonomy, ";", fixed = TRUE)
+taxlist = lapply(taxlist, phyloseq::parse_taxonomy_default)
+names(taxlist) <- rawtab$feature_id
+tax_tbl <- phyloseq::build_tax_table(taxlist)
+
+## Generate phyloseq object
+unclustered_ps <- phyloseq::phyloseq(otu_tbl, tax_tbl), phyloseq::sample_data(meta_df))
+
+### Extracting representative sequences
+unclustered_seq <- readDNAStringSet("mothur/mgtst.trim.contigs.good.unique.ng.good.fasta")
+rep_seqs <- unclustered_seq[feat_id_tbl$seq_id]
+### sanity check should sum to 0
+# sum(names(rep_seqs) != feat_id_tbl$seq_id[which(feat_id_tbl$seq_id == names(rep_seqs))])
+names(rep_seqs) <-  feat_id_tbl$feature_id[which(feat_id_tbl$seq_id == names(rep_seqs))]
+```
+
+
+### Unclustered MRexperiment Object
+```{r}
+unclustered_mrexp <- phyloseq::phyloseq_to_metagenomeSeq(unclustered_ps)
+```
+
+```{r}
+unclustered_mrexp
+```
+
+### Save Unclustered Objects
+```{r}
+saveRDS(unclustered_ps, "mothur/unclustered_ps.rds")
+saveRDS(unclustered_mrexp, "mothur/unclustered_mrexp.rds")
+writeXStringSet(rep_seqs,filepath = "mothur/unclustered_seqs.fasta.gz",compress = TRUE)
+```
+
+## Mothur
 
 ### Mothur Phyloseq Object
 
@@ -50,8 +124,12 @@ shared_file <- "mothur/mgtst.trim.contigs.good.unique.good.filter.unique.preclus
 
 constax_file <- "mothur/mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.0.03.cons.taxonomy"
 
+tree_file <- "mothur/mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.0.03.rep.phylip.tre"
+
+## TODO - Fix tree ids to match OTU ids.
 mothur_ps <- phyloseq::import_mothur(mothur_shared_file = shared_file,
-                        mothur_constaxonomy_file = constax_file)
+                        mothur_constaxonomy_file = constax_file,
+                        mothur_tree_file = tree_file)
 
 ## Adding sample data
 phyloseq::sample_data(mothur_ps) <- meta_df
@@ -70,6 +148,10 @@ mothur_mrexp <- phyloseq_to_metagenomeSeq(mothur_ps)
 mothur_mrexp
 ```
 
+
+representative sequences
+run in mothur
+get.oturep(column=mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.dist, list=mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.opti_mcc.unique_list.list, count=mgtst.trim.contigs.good.unique.good.filter.count_table, fasta=mgtst.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta)
 ### Save Mothur Objects
 ```{r}
 saveRDS(mothur_ps, "mothur/mothur_ps.rds")
@@ -78,7 +160,7 @@ saveRDS(mothur_mrexp, "mothur/mothur_mrexp.rds")
 
 ### QIIME  
 
-#### QIIME Phyloseq Object 
+#### QIIME Phyloseq Object
 ```{r}
 # qiime_dir <- "qiime/otus_uc_fast_no_chimera/"
 qiime_dir <- "qiime/otus_uc_fast/"
@@ -99,14 +181,14 @@ qiime_ps
 ```
 <!--
 Only when chimera filtering is included
-__NOTE__ 
-The three samples removed by the QIIME pipeline are no template controls. 
+__NOTE__
+The three samples removed by the QIIME pipeline are no template controls.
 
 ```{r}
-meta_df %>% rownames_to_column() %>% 
+meta_df %>% rownames_to_column() %>%
   filter(!(rowname %in% sample_names(qiime_ps)))
 ```
---> 
+-->
 
 ### QIIME MRexperiment Object
 ```{r}
@@ -123,9 +205,9 @@ saveRDS(qiime_ps, "qiime/qiime_ps.rds")
 saveRDS(qiime_mrexp, "qiime/qiime_mrexp.rds")
 ```
 
-### DADA2 Phyloseq Object 
+### DADA2 Phyloseq Object
 ```{r}
-seqtab <- readRDS("dada2/seqtab_nochim.rds") 
+seqtab <- readRDS("dada2/seqtab_nochim.rds")
 otu_tbl <- otu_table(seqtab, taxa_are_rows=FALSE)
 
 ## Rep sequences
@@ -138,8 +220,8 @@ colnames(otu_tbl) <- paste0("SV",1:ncol(otu_tbl))
 taxa <- readRDS("dada2/taxa.rds")
 rownames(taxa) <- names(sv_seqs)[match(sv_seqs, rownames(taxa))]
 
-dada_ps <- phyloseq(otu_tbl, 
-                    sample_data(meta_df), 
+dada_ps <- phyloseq(otu_tbl,
+                    sample_data(meta_df),
                     tax_table(taxa))
 
 ## Removing 0 entry samples
@@ -158,14 +240,14 @@ dada_mrexp <- phyloseq_to_metagenomeSeq(dada_ps)
 ```
 
 ```{r}
-dada_mrexp 
+dada_mrexp
 ```
 
 ### Save DADA2 Objects
 ```{r}
 saveRDS(dada_ps, "dada2/dada_ps.rds")
-saveRDS(dada_mrexp, "dada2/dada_mrexp.rds") 
-DNAStringSet(sv_seqs) %>% writeXStringSet("dada2/sv_seqs.rds")
+saveRDS(dada_mrexp, "dada2/dada_mrexp.rds")
+DNAStringSet(sv_seqs) %>% writeXStringSet("dada2/sv_seqs.fasta")
 ```
 
 
@@ -173,6 +255,6 @@ DNAStringSet(sv_seqs) %>% writeXStringSet("dada2/sv_seqs.rds")
 ```{r}
 s_info <- devtools::session_info()
 print(s_info$platform)
-s_info$packages %>% filter(`*` == "*") %>% select(-`*`) %>% 
+s_info$packages %>% filter(`*` == "*") %>% select(-`*`) %>%
       knitr::kable()
 ```
