@@ -36,9 +36,10 @@ TRAIN_SEQ=$(TRAIN_AMP_ROOT).fasta
 TRAIN_TAX=$(TRAIN_AMP_ROOT).tax
 
 ## Mothur
-PROC=processors=8
+PROC_FULL=processors=32
+PROC_ALIGN=processors=8
 # clustering requires more memory ~4Gb per thread
-CLUSTER_PROC=processors=1
+CLUSTER_PROC=processors=4
 MOTHUR=bin/mothur
 
 ## Data Set Processing
@@ -95,7 +96,10 @@ REP_TREE=$(ROOT).trim.contigs.good.unique.good.filter.unique.precluster.pick.opt
 #
 ############################################################################################################
 
-all: $(UNCLUSTERED_SEQ) $(UNCLUSTERED_TAX) $(CLUSTER_SHARED) $(CLUSTER_TAX) $(REP_NG_FASTA) $(REP_TREE)
+## Removing unclustered to save computation time
+all: $(CLUSTER_SHARED) $(CLUSTER_TAX) $(REP_NG_FASTA) $(REP_TREE)
+# all: $(UNCLUSTERED_SEQ) $(UNCLUSTERED_TAX) $(CLUSTER_SHARED) $(CLUSTER_TAX) $(REP_NG_FASTA) $(REP_TREE)
+# all: $(CONTIG_FASTA) $(CONTIG_COUNT) 
 
 .PHONY: clean
 clean:
@@ -168,8 +172,8 @@ $(FQ_FILES):
 
 # Merging read pairs and removing low quality contigs
 $(CONTIG_FASTA) $(CONTIG_COUNT): $(FQ_FILES)
-	$(MOTHUR) "#make.contigs(file=$(FQ_FILES), inputdir=$(FQ), outputdir=$(PROCESS), $(PROC));\
-              screen.seqs(fasta=current, group=current, maxambig=0, maxlength=500, maxhomop=8);\
+	$(MOTHUR) "#make.contigs(file=$(FQ_FILES), inputdir=$(FQ), outputdir=$(PROCESS), $(PROC_FULL));\
+              screen.seqs(fasta=current, group=current, maxambig=0, minlength=400, maxlength=450, maxhomop=8);\
 				      unique.seqs(fasta=current);\
 				      count.seqs(name=current, group=current)"
 	rm mothur/mgtst.scrap.contigs.fasta mothur/mgtst.scrap.contigs.qual mothur/mgtst.trim.contigs.fasta mothur/mgtst.trim.contigs.qual mothur/mgtst.trim.contigs.good.fasta
@@ -181,10 +185,10 @@ $(CONTIG_FASTA) $(CONTIG_COUNT): $(FQ_FILES)
 ######
 
 $(ALIGN): $(CONTIG_FASTA) $(DB_AMP_ROOT).align
-	$(MOTHUR) "#align.seqs(fasta=$(CONTIG_FASTA), reference=$(DB_AMP_ROOT).align, flip=t, $(PROC))"
+	$(MOTHUR) "#align.seqs(fasta=$(CONTIG_FASTA), reference=$(DB_AMP_ROOT).align, flip=t, $(PROC_FULL))"
 
 $(ALIGN_CLEAN) $(ALIGN_COUNT): $(ALIGN)
-	$(MOTHUR) "#screen.seqs(fasta=$(ALIGN), count=$(CONTIG_COUNT), minlength=400, maxlength=500);\
+	$(MOTHUR) "#screen.seqs(fasta=$(ALIGN), count=$(CONTIG_COUNT), minlength=400, maxlength=450);\
               filter.seqs(fasta=current, vertical=T, trump=.);\
               unique.seqs(fasta=current, count=current)"
 	rm mothur/mgtst.trim.contigs.good.unique.good.align mothur/mgtst.trim.contigs.good.unique.good.filter.fasta
@@ -194,12 +198,11 @@ $(ALIGN_CLEAN) $(ALIGN_COUNT): $(ALIGN)
 # Unclustered
 #
 ######
-
-$(UNCLUSTERED_SEQ) $(UNCLUSTERED_TAX):	$(ALIGN) $(ALIGN_COUNT) $(TRAIN_SEQ) $(TRAIN_TAX)
-	$(MOTHUR) "#degap.seqs(fasta=$(ALIGN));\
-							screen.seqs(fasta=current, count=$(CONTIG_COUNT), minlength=430);\
-							classify.seqs(fasta=current, count=current, reference=$(TRAIN_SEQ), taxonomy=$(TRAIN_TAX), cutoff=80, $(PROC))"
-	rm mothur/mgtst.trim.contigs.good.unique.align mothur/mgtst.trim.contigs.good.unique.ng.fasta
+#$(UNCLUSTERED_SEQ) $(UNCLUSTERED_TAX):	$(ALIGN) $(ALIGN_COUNT) $(TRAIN_SEQ) $(TRAIN_TAX)
+#	$(MOTHUR) "#degap.seqs(fasta=$(ALIGN));\
+#							screen.seqs(fasta=current, count=$(CONTIG_COUNT), minlength=430);\
+#							classify.seqs(fasta=current, count=current, reference=$(TRAIN_SEQ), taxonomy=$(TRAIN_TAX), cutoff=80, $(PROC_FULL))"
+#	rm mothur/mgtst.trim.contigs.good.unique.align mothur/mgtst.trim.contigs.good.unique.ng.fasta
 
 ######
 #
@@ -208,14 +211,14 @@ $(UNCLUSTERED_SEQ) $(UNCLUSTERED_TAX):	$(ALIGN) $(ALIGN_COUNT) $(TRAIN_SEQ) $(TR
 ######
 
 $(PRECLUSTER_FASTA) $(PRECLUSTER_COUNT): $(ALIGN_CLEAN) $(ALIGN_CLEAN_COUNT)
-	$(MOTHUR) "#pre.cluster(fasta=$(ALIGN_CLEAN), count=$(ALIGN_CLEAN_COUNT), diffs=5, $(PROC))"
+	$(MOTHUR) "#pre.cluster(fasta=$(ALIGN_CLEAN), count=$(ALIGN_CLEAN_COUNT), diffs=4, $(PROC_ALIGN))"
 
 $(CHIMERA_FASTA) $(CHIMERA_COUNT): $(PRECLUSTER_FAST) $(PRECLUSTER_COUNT)
 	$(MOTHUR) "#chimera.uchime(fasta=$(PRECLUSTER_FASTA), count=$(PRECLUSTER_COUNT), dereplicate=T, $(CLUSTER_PROC));\
               remove.seqs(fasta=current, accnos=current, count=current)"
 
 $(CLASSIFY): $(CHIMERA_FASTA) $(CHIMERA_COUNT) $(TRAIN_SEQ) $(TRAIN_TAX)
-	$(MOTHUR) "#classify.seqs(fasta=$(CHIMERA_FASTA), count=$(CHIMERA_COUNT), reference=$(TRAIN_SEQ), taxonomy=$(TRAIN_TAX), cutoff=80, $(PROC))"
+	$(MOTHUR) "#classify.seqs(fasta=$(CHIMERA_FASTA), count=$(CHIMERA_COUNT), reference=$(TRAIN_SEQ), taxonomy=$(TRAIN_TAX), cutoff=80, $(PROC_FULL))"
 
 $(CLUSTER_FASTA) $(CLUSTER_TAX) $(CLUSTER_SHARED): $(CHIMERA_FASTA) $(CHIMERA_COUNT) $(CLASSIFY)
 	$(MOTHUR) "#cluster.split(fasta=$(CHIMERA_FASTA), count=$(CHIMERA_COUNT), taxonomy=$(CLASSIFY), splitmethod=classify, taxlevel=4, $(CLUSTER_PROC));\
@@ -233,5 +236,5 @@ $(REP_FASTA) $(REP_NG_FASTA): $(CLUSTER)
 				      degap.seqs(fasta=current)"
 
 $(REP_TREE): $(REP_FASTA)
-	$(MOTHUR) "#dist.seqs(fasta=$(REP_FASTA), output=lt, $(PROC));\
+	$(MOTHUR) "#dist.seqs(fasta=$(REP_FASTA), output=lt, $(PROC_FULL));\
 				      clearcut(phylip=current)"
